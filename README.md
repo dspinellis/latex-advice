@@ -128,6 +128,10 @@ by the speed of light ($c$) squared.
   A.J. Hildebrand's
 [Top Ten List](http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
 
+## Use symbolic references
+Mark sections, tables, figures, and equations using the `\label` command,
+and reference them using the `\ref` command.
+
 ## Typography
 * Avoid the use of rules (`\hline` and `|`) in tables.
   They are unsightly and this is the reason you will rarely see them
