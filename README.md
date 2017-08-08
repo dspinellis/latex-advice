@@ -130,8 +130,12 @@ by the speed of light ($c$) squared.
 
 ## Typography
 * Avoid the use of rules (`\hline` and `|`) in tables.
-* They are unsightly and this is the reason you will rarely see them
+  They are unsightly and this is the reason you will rarely see them
   in professionally typeset books.
+* Use vector rather than bitmap images.
+  So, avoid including a `.jpeg` or `.png` image if you can include
+  a PDF created from vector data, e.g.  by direct export from *Inkscape*
+  or *GraphViz* or by converting an `.svg` file.
 * Use three dashes (`---`) to create the *em-dash*,
   which separates parenthetical phrases.
 * Use two dashes (`--`) to create an *en-dash*.
