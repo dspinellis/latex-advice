@@ -113,6 +113,7 @@ Here are some popular LaTeX packages your may want to know about.
 * [hyperref](https://www.ctan.org/pkg/hyperref): Extensive support for hypertext
 * [listings](https://www.ctan.org/pkg/listings): Typeset source code listings
 * [natbib](https://www.ctan.org/pkg/natbib): Flexible bibliography support
+* [PGF/TikZ](https://www.ctan.org/pkg/pgf): Create PostScript and PDF graphics
 * [pslatex](https://www.ctan.org/pkg/pslatex): Use PostScript fonts by default
 * [url](https://www.ctan.org/pkg/url): Verbatim with URL-sensitive line breaks
 * [xcolor](https://www.ctan.org/pkg/xcolor): Driver-independent color extensions
