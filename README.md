@@ -90,6 +90,25 @@ helps you appreciate how your readers will experience it, and
 minimizes rework by forcing you to comply with the publisher's
 requirements while you develop your document.
 
+## Use third-party LaTeX packages
+YOu can obtain many formatting goodies by incorporating into
+your document third-party LaTeX packages.
+Most LaTeX distributions provide a package management system
+that simplifies the installation and maintenance of packages.
+Here are some popular LaTeX packages your may want to know about.
+* amsmath, amssymb, amsthm
+* booktabs
+* cite
+* doublespace
+* fancyhdr
+* geometry
+* hyperref
+* natbib
+* pslatex
+* url
+* xcolor
+* xspace
+
 ## Avoid explicit formatting
 * Avoid the use of explicit formatting within the text.
   Instead, use commands that specify why your text should be formatted
