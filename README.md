@@ -103,21 +103,20 @@ your document third-party LaTeX packages.
 Most LaTeX distributions provide a package management system
 that simplifies the installation and maintenance of packages.
 Here are some popular LaTeX packages your may want to know about.
-* [amsmath](https://www.ctan.org/pkg/amsmath)
-* [amssymb](https://www.ctan.org/pkg/amssymb)
-* [amsthm](https://www.ctan.org/pkg/amsthm)
-* [booktabs](https://www.ctan.org/pkg/booktabs)
-* [cite](https://www.ctan.org/pkg/cite)
-* [doublespace](https://www.ctan.org/pkg/doublespace)
-* [fancyhdr](https://www.ctan.org/pkg/fancyhdr)
-* [geometry](https://www.ctan.org/pkg/geometry)
-* [hyperref](https://www.ctan.org/pkg/hyperref)
-* [listings](https://www.ctan.org/pkg/listings)
-* [natbib](https://www.ctan.org/pkg/natbib)
-* [pslatex](https://www.ctan.org/pkg/pslatex)
-* [url](https://www.ctan.org/pkg/url)
-* [xcolor](https://www.ctan.org/pkg/xcolor)
-* [xspace](https://www.ctan.org/pkg/xspace)
+* [amsmath, amssymb](https://www.ctan.org/pkg/amsmath): AMS mathematical facilities
+* [amsthm](https://www.ctan.org/pkg/amsthm): Typesetting theorems (AMS style)
+* [booktabs](https://www.ctan.org/pkg/booktabs): Publication quality tables
+* [cite](https://www.ctan.org/pkg/cite): Improved citation handling
+* [doublespace](https://www.ctan.org/pkg/doublespace): Double space environment
+* [fancyhdr](https://www.ctan.org/pkg/fancyhdr): Extensive control of page headers and footers
+* [geometry](https://www.ctan.org/pkg/geometry): Flexible and complete interface to document dimensions
+* [hyperref](https://www.ctan.org/pkg/hyperref): Extensive support for hypertext
+* [listings](https://www.ctan.org/pkg/listings): Typeset source code listings
+* [natbib](https://www.ctan.org/pkg/natbib): Flexible bibliography support
+* [pslatex](https://www.ctan.org/pkg/pslatex): Use PostScript fonts by default
+* [url](https://www.ctan.org/pkg/url): Verbatim with URL-sensitive line breaks
+* [xcolor](https://www.ctan.org/pkg/xcolor): Driver-independent color extensions
+* [xspace](https://www.ctan.org/pkg/xspace): Define commands that appear not to eat spaces
 
 ## Avoid explicit formatting
 * Avoid the use of explicit formatting within the text.
