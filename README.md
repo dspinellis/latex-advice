@@ -15,10 +15,12 @@ Contributions via GitHub pull requests are always welcomed.
   This can live on GitHub if you plan to work with others or want
   to keep a copy on another server, or it can be a local Git repository
   you create with `git init`.
-* Do not include in the repository generated files,
-  such as compiled bibliographies or PDF diagrams,
-  e.g. generated from R or Python scripts or exported from Inkscape
-  SVG diagrams.
+* Do not include in the repository generated files, such as
+  the formatted PDF document,
+  compiled bibliographies,
+  or PDF charts generated from R or Python scripts.
+  Instead, add *Makefile* rules to automatically create these files
+  at build time.
 * Commit your changes to the repository in logical chunks using
   [meaningful commit messages](https://chris.beams.io/posts/git-commit/).
 * When you remove text, delete it completely, rather than commenting
