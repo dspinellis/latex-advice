@@ -104,6 +104,7 @@ Here are some popular LaTeX packages your may want to know about.
 * fancyhdr
 * geometry
 * hyperref
+* listings
 * natbib
 * pslatex
 * url
@@ -158,8 +159,9 @@ and reference them using the `\ref` command.
   in professionally typeset books.
 * Use vector rather than bitmap images.
   So, avoid including a `.jpeg` or `.png` image if you can include
-  a PDF created from vector data, e.g.  by direct export from *Inkscape*
-  or *GraphViz* or by converting an `.svg` file.
+  a PDF created from vector data, e.g.  by direct export from
+  [Inkscape](https://inkscape.org/en/) or
+  [GraphViz](http://graphviz.org/) or by converting an `.svg` file.
 * Use three dashes (`---`) to create the *em-dash*,
   which separates parenthetical phrases.
 * Use two dashes (`--`) to create an *en-dash*.
@@ -177,7 +179,7 @@ and reference them using the `\ref` command.
   considerably more difficult to read than its lowercase equivalent.
   Lowercase letters have been designed for easy reading,
   uppercase were originally designed for easy chiseling on stone.
-* Use small caps for abbreviations.
+* Use small caps for writing abbreviations.
   For example, write `\textsc{sql}`, rather than `SQL`.
 
 ## LaTeX formatting
@@ -186,7 +188,7 @@ and reference them using the `\ref` command.
   For example, write `Some also use logging statements~\cite{Spi06e}`.
 * Put a backslash after a non-sentence ending period to ensure this will
   not be followed by the period-ending spacing.
-  For example, write `Spinellis et al.\ famously found …`
+  For example, write `In 1962 Watson et al.\ famously found …`
 * Match opening and closing quotes using one or two single-opening
   (`‘` or `‘‘`) and single-closing (`’` or `’’`) quote characters.
   Do not use the keyboard's double quote symbol (`"`).
