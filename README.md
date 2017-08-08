@@ -103,19 +103,21 @@ your document third-party LaTeX packages.
 Most LaTeX distributions provide a package management system
 that simplifies the installation and maintenance of packages.
 Here are some popular LaTeX packages your may want to know about.
-* amsmath, amssymb, amsthm
-* booktabs
-* cite
-* doublespace
-* fancyhdr
-* geometry
-* hyperref
-* listings
-* natbib
-* pslatex
-* url
-* xcolor
-* xspace
+* [amsmath](https://www.ctan.org/pkg/amsmath)
+* [amssymb](https://www.ctan.org/pkg/amssymb)
+* [amsthm](https://www.ctan.org/pkg/amsthm)
+* [booktabs](https://www.ctan.org/pkg/booktabs)
+* [cite](https://www.ctan.org/pkg/cite)
+* [doublespace](https://www.ctan.org/pkg/doublespace)
+* [fancyhdr](https://www.ctan.org/pkg/fancyhdr)
+* [geometry](https://www.ctan.org/pkg/geometry)
+* [hyperref](https://www.ctan.org/pkg/hyperref)
+* [listings](https://www.ctan.org/pkg/listings)
+* [natbib](https://www.ctan.org/pkg/natbib)
+* [pslatex](https://www.ctan.org/pkg/pslatex)
+* [url](https://www.ctan.org/pkg/url)
+* [xcolor](https://www.ctan.org/pkg/xcolor)
+* [xspace](https://www.ctan.org/pkg/xspace)
 
 ## Avoid explicit formatting
 * Avoid the use of explicit formatting within the text.
