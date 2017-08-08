@@ -48,10 +48,14 @@ The operational reasons are associated with the required throughput,
 though due to the relatively small number of releases we examined,
 this was not a major issue in this study.
 ```
-* Use comments to indicate the key idea of each
+* Use comments (sequences starting with `%`) to indicate the key idea of each
   paragraph or section.
-  You can also use comments, such as `XXX` or `TODO` to indicate places
+* Use comment keywords, such as `XXX` or `TODO`, to indicate places
   where more work is needed.
+* Write LaTeX code and configure your editor so that you can
+  fold sections and paragraphs.
+  This shall allow you to inspect your document's structure as an outline.
+  If needed, add folding comments (e.g. `{{{2`) to facilitate this.
 
 ## Automate the document's build
 Ensure that the document can be built with a single command,
