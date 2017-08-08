@@ -1,8 +1,9 @@
 # Advice for writing LaTeX documents
 If you're writing a scientific book, a paper, or a thesis in
 computer science, engineering, mathematics, physics or a related
-field, it pays to write it in LaTeX, especially if your work
-contains formulas, symbols, and heavy cross referencing.
+field, it pays to write it using [LaTeX](https://www.latex-project.org/about/),
+especially if your work contains
+formulas, symbols, and heavy cross referencing.
 Here is my advice for doing so, collected over decades of writing
 [hundreds of papers and books](https://www.spinellis.gr/pubs/index.html),
 mostly using LaTeX.
