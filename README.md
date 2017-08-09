@@ -277,6 +277,13 @@ by the speed of light ($c$) squared.
   in charts and diagrams.
 * Ensure figure fonts are scaled to match the size of the document's
   font.
+  Eyeballing is often enough.
+  For exact measurements you have two options.
+  If you scale the figure by an explicit amount (e.g. 1 or 0.5) you
+  should use a font of the corresponding size (e.g. 11 points or 22 points).
+  If you scale the figure by an arbitrary amount to match the document's
+  column width, , you can load the resultant PDF in Inkscape and measure the
+  font size there.
 
 ## Floats
 * Allow large displayed elements (figures, tables, listings) to have
