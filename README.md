@@ -214,13 +214,16 @@ by the speed of light ($c$) squared.
 
 ## Use symbolic references
 *  Mark sections, tables, figures, and equations using the `\label` command,
-   and reference them using the `\Cref` command. 
-* Avoid referencing floating environments by name 
+   and reference them using the [cleveref](https://www.ctan.org/pkg/cleveref)
+ `\Cref` command.
+* Avoid referencing floating environments by name
   (e.g. `see Figure~\ref{fig:foo}`);`\Cref` can create that for you:
   `see~\Cref{fig:foo}`.
-* Label names should be self-descriptive. Prefer `tab:RQ1results` rather than
-  `table1`. Use the `tab:` prefix when labelling tables and `fig:` prefix
-  when labelling figures.
+* Label names should be self-descriptive.
+  For example, use `tab:statResults` rather than  `table1`.
+  Use the `tab:` prefix when labelling tables,
+  the `fig:` prefix  when labelling figures, and
+  the `sec` prefix  when labelling sections.
 
 ## Tables
 * Avoid the use of rules (`\hline` and `|`) in tables.
