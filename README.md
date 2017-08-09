@@ -125,7 +125,7 @@ minimizes rework by forcing you to comply with the publisher's
 requirements while you develop your document.
 
 ## Use third-party LaTeX packages
-YOu can obtain many formatting goodies by incorporating into
+You can obtain many formatting goodies by incorporating into
 your document third-party LaTeX packages.
 Most LaTeX distributions provide a package management system
 that simplifies the installation and maintenance of packages.
