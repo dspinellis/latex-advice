@@ -332,6 +332,13 @@ by the speed of light ($c$) squared.
   uppercase were originally designed for easy chiseling on stone.
 * Use small caps for writing abbreviations.
   For example, write `\textsc{sql}`, rather than `SQL`.
+  Note that some publishers do not follow this style.
+  If you are supplying the final camera ready version
+  (e.g. for conference proceedings), use small caps.
+  If a publisher will edit your document and the publisher does not use
+  small caps, avoid their use;
+  a common frustrating mistake is for publishers to remove the
+  `\textsc` command, without writing the text in uppercase.
 * Display pseudo-code using the
   [algorithmicx](https://www.ctan.org/pkg/algorithmicx)
   package and environment.
