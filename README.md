@@ -155,6 +155,7 @@ Here are some popular LaTeX packages your may want to know about.
 * [url](https://www.ctan.org/pkg/url): Verbatim with URL-sensitive line breaks
 * [xcolor](https://www.ctan.org/pkg/xcolor): Driver-independent color extensions
 * [xspace](https://www.ctan.org/pkg/xspace): Define commands that appear not to eat spaces
+* [cleveref](https://www.ctan.org/pkg/cleveref): Intelligent cross-referencing
 
 ## Avoid explicit formatting
 * Avoid the use of explicit formatting within the text.
@@ -212,8 +213,14 @@ by the speed of light ($c$) squared.
 [Top Ten List](http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
 
 ## Use symbolic references
-Mark sections, tables, figures, and equations using the `\label` command,
-and reference them using the `\ref` command.
+*  Mark sections, tables, figures, and equations using the `\label` command,
+   and reference them using the `\Cref` command. 
+* Avoid referencing floating environments by name 
+  (e.g. `see Figure~\ref{fig:foo}`);`\Cref` can create that for you:
+  `see~\Cref{fig:foo}`.
+* Label names should be self-descriptive. Prefer `tab:RQ1results` rather than
+  `table1`. Use the `tab:` prefix when labelling tables and `fig:` prefix
+  when labelling figures.
 
 ## Tables
 * Avoid the use of rules (`\hline` and `|`) in tables.
