@@ -91,6 +91,12 @@ this was not a major issue in this study.
 ```
 % Advantages of model-based development {{{3
 ```
+* Finally, don't spend too much time on formatting.
+  Concentrate on communicating your ideas and on making your document
+  maintainable.
+  Excessive formatting tweaks can be counterproductive:
+  you waste time implementing them and
+  your publisher may find it more difficult to use your document.
 
 ## Automate the document's build
 Ensure that the document can be built with a single command,
@@ -336,7 +342,6 @@ by the speed of light ($c$) squared.
 * Match opening and closing quotes using one or two single-opening
   (`‘` or `‘‘`) and single-closing (`’` or `’’`) quote characters.
   Do not use the keyboard's double quote symbol (`"`).
-
 
 ## See also
 * A.J. Hildebrand. [LaTeX Tips: Basic tips](http://www.math.uiuc.edu/~ajh/tex/basics.html)
