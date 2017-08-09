@@ -148,6 +148,7 @@ Here are some popular LaTeX packages your may want to know about.
 * [geometry](https://www.ctan.org/pkg/geometry): Flexible and complete interface to document dimensions
 * [hyperref](https://www.ctan.org/pkg/hyperref): Extensive support for hypertext
 * [listings](https://www.ctan.org/pkg/listings): Typeset source code listings
+* [minted](https://www.ctan.org/pkg/minted): Typeset source code listings with highligthing
 * [natbib](https://www.ctan.org/pkg/natbib): Flexible bibliography support
 * [PGF/TikZ](https://www.ctan.org/pkg/pgf): Create PostScript and PDF graphics
 * [pslatex](https://www.ctan.org/pkg/pslatex): Use PostScript fonts by default
@@ -277,6 +278,12 @@ by the speed of light ($c$) squared.
   uppercase were originally designed for easy chiseling on stone.
 * Use small caps for writing abbreviations.
   For example, write `\textsc{sql}`, rather than `SQL`.
+* For pseudocode, use the `algorithmicx` package and environment. See 
+  [this wikibooks](https://en.wikibooks.org/wiki/LaTeX/Algorithms) 
+  entry for more details.
+* For source code snippets, use the `minted` package. Make sure your code 
+  does not go over the paragraph length; if it does, adjust line breaking 
+  and/or font size accordingly.
 
 ## LaTeX formatting
 * Use a tilde after `\cite` `\ref` etc. to avoid a line break immediately
