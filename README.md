@@ -353,7 +353,7 @@ by the speed of light ($c$) squared.
   if it does, adjust line breaking and/or font size accordingly.
 
 ## LaTeX formatting
-* Use a tilde after `\cite` `\ref` etc. to avoid a line break immediately
+* Use a tilde before `\cite` `\ref` etc. to avoid a line break immediately
   before the reference.
   For example, write `Some also use logging statements~\cite{Spi06e}`.
 * Put a backslash after a non-sentence ending period to ensure this will
