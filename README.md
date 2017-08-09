@@ -7,6 +7,11 @@ formulas, symbols, and heavy cross referencing.
 Here is advice for doing so, collected over decades of writing
 [hundreds of papers and books](https://www.spinellis.gr/pubs/index.html),
 mostly using LaTeX.
+
+Note that this list is not intended to provide advice on
+English style or scientific writing.
+There are many excellent guides for both.
+
 Contributions via *GitHub* pull requests are always welcomed.
 
 ## Put the document under version control
