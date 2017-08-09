@@ -4,15 +4,15 @@ computer science, engineering, mathematics, physics or a related
 field, it pays to write it using [LaTeX](https://www.latex-project.org/about/),
 especially if your work contains
 formulas, symbols, and heavy cross referencing.
-Here is my advice for doing so, collected over decades of writing
+Here is advice for doing so, collected over decades of writing
 [hundreds of papers and books](https://www.spinellis.gr/pubs/index.html),
 mostly using LaTeX.
-Contributions via GitHub pull requests are always welcomed.
+Contributions via *GitHub* pull requests are always welcomed.
 
 ## Put the document under version control
 * Create a repository for your document and add to it all the
   document's source code.
-  This can live on GitHub if you plan to work with others or want
+  This can live on *GitHub* if you plan to work with others or want
   to keep a copy on another server, or it can be a local Git repository
   you create with `git init`.
 * Do not include in the repository generated files, such as
@@ -50,6 +50,21 @@ The operational reasons are associated with the required throughput,
 though due to the relatively small number of releases we examined,
 this was not a major issue in this study.
 ```
+* Splitting lines at the level of phrases and a sentence's logical structure
+  offers you the following advantages.
+  * It gives clean line differences of changes made between versions;
+    a line change corresponds at most to a single phrase.
+    (You can obtain difference listings on *GitHub*, or via `git diff`.)
+    Clean differences make it easier to see what has changed and to
+    merge changes of others when working as a group.
+  * It makes it easy to rearrange the order of sentences or the elements
+    in a list, simply by moving lines around.
+  * It gives you with a second (a structural) view of your document,
+    which nicely complements the flowed typeset view that LaTeX generates.
+    This provides you with additional opportunities to spot and fix
+    syntax, grammar, and style mistakes.
+    For example, this allows you to spot inconsistent or repetitive
+    structure in a paragraph's sentences.
 * Use comments (sequences starting with `%`) to indicate the key idea of each
   paragraph or section.
 * Use comment keywords, such as `XXX` or `TODO`, to indicate places
