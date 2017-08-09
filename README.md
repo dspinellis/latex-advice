@@ -34,6 +34,7 @@ Contributions via *GitHub* pull requests are always welcomed.
 ## Write readable LaTeX source code
 * Treat the LaTeX source code with love and care.
 * Avoid long lines, slitting text somewhere between column 60 and 70.
+  (You can configure your editor to do this for you).
 * Start each phrase on a separate line, and further split a phrase
   according to its logical structure.
   Here is an example.
