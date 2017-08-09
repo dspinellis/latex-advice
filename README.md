@@ -36,8 +36,10 @@ Contributions via *GitHub* pull requests are always welcomed.
   The version control system will keep track of it and your document
   will remain clean.
 
-## Write readable LaTeX source code
-* Treat the LaTeX source code with love and care.
+## Write readable and maintainable LaTeX source code
+* Treat the LaTeX source code with love and care as you would treat
+  software code.
+  You aim is to keep the source code readable and maintainable.
 * Avoid long lines, slitting text somewhere between column 60 and 70.
   (You can configure your editor to do this for you).
 * Start each phrase on a separate line, and further split a phrase
@@ -81,7 +83,14 @@ this was not a major issue in this study.
 * Write LaTeX code and configure your editor so that you can
   fold sections and paragraphs.
   This shall allow you to inspect your document's structure as an outline.
-  If needed, add folding comments (e.g. `{{{2`) to facilitate this.
+  If needed, add fold marks in comments (e.g. `% {{{2`) to facilitate this.
+  For example, if your document's structure is in sections and subsections,
+  these would be level-1 and level-2 folds.
+  You would then start each paragraph with a level-3 fold comment,
+  such as the following.
+```
+% Advantages of model-based development {{{3
+```
 
 ## Automate the document's build
 Ensure that the document can be built with a single command,
