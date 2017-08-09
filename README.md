@@ -104,12 +104,24 @@ and that files that are out of date are appropriately rebuilt.
 This saves you from repeatedly executing multiple commands,
 makes it easier to work as a team, and
 avoids the accidental use of outdated files.
-Although you can use the Unix *make* command for this purpose,
-a better alternative is *latexmk*, which comes bundled with
-most LaTeX distributions.
-See [this StackExchange answer](https://tex.stackexchange.com/a/40759/10140)
-for a complete example.
-
+You have three options here.
+* You can use the Unix *make* command.
+  It's available out of the box, but expressing the need for
+  multiple passes over your document is difficult,
+  so you may end up processing the document more often than needed.
+* A second alternative is
+  [latexmk](https://www.ctan.org/pkg/latexmk),
+  which comes bundled with most LaTeX distributions.
+  See [this StackExchange answer](https://tex.stackexchange.com/a/40759/10140)
+  for a complete example.
+* A third alternative is the use of
+  [BSD Owl](https://github.com/michipili/bsdowl) scripts,
+  as documented
+  [here](https://github.com/michipili/bsdowl/blob/master/doc/LaTeXDocument.md).
+Both *latexmk* and *BSD Owl* will help you create clean and functional
+build setups.
+Choose the one that is easier to install on your system and matches your
+taste.
 ## Automate the management of bibliographic references
 * Create one or more centrally-managed bibliography files for your
   work, and list those in a `\bibliography` command in all documents you write.
