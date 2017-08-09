@@ -111,8 +111,6 @@ for a complete example.
 * If you need to reference a specific page or chapter, include this information
   in square brackets before the key.
   For example, write: `… educational use~\cite[p.~8]{LR89}.`
-* If you save the PDF document associated with a bibliography entry in
-  your files, name it using the entry's key, e.g. `LR89.pdf`.
 * If your publisher requires in-text author-year citations, use the
   [natbib](https://www.ctan.org/pkg/natbib?lang=en) package in conjunction
   with the `\citet`, `\citep`, and `\citeauthor` commands.
@@ -122,6 +120,29 @@ for a complete example.
     `Another argument (Jones et al., 1990) …`.
   * `As \citeauthor{jon90} argued …` to get
     `As Jones argued …` (e.g. on a subsequent mention in the same paragraph).
+* If you save the PDF document associated with a bibliography entry in
+  your files, name it using the entry's key, e.g. `LR89.pdf`.
+* If you copy-paste a BibTeX entry from a digital library,
+  edit it carefully to ensure a consistent high-level of quality.
+  * Write the title using
+    [title capitalization](http://grammarist.com/style/title-capitalization/),
+    e.g. write `The Elements of Programming Style`, rather than
+    `The elements of programming style`.
+    This ensures that the title will appear correctly
+    if a particular bibliography style requires title capitalization.
+  * Put a title's characters that should always be capitalized in braces,
+    e.g. `The {C} Programming Language`, or `Fifty Years of {M}oore's Law`.
+    This ensures these characters will not be converted to lowercase
+    in bibliography styles that do not require title capitalization.
+  * Use a consistent format for referring to conferences, for example,
+    `{ICSE} '08: Proceedings of the 30th International Conference on Software Engineering`.
+    It would be a mistake to use a different format, e.g.
+    `12th Working Conference on Mining Software Repositories, Proceedings of (MSR 2015)` in another entry.
+  * Specify an em-dash or en-dash where required, e.g.
+    `The Entity-Relationship Model --- Toward a Unified View of Data`.
+  * Use LaTeX special characters for authors whose names contain non-ASCII
+    characters, e.g.
+    `author = {Yann-Ga\"{e}l Gu\'{e}h\'{e}neuc and Herv\'{e} Albin-Amiot}`
 
 ## Use style files
 Conference organizers and publishers often supply style files that
