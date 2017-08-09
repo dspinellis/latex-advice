@@ -101,10 +101,13 @@ for a complete example.
   your files, name it using the entry's key, e.g. `LR89.pdf`.
 * If your publisher requires in-text author-year citations, use the
   [natbib](https://www.ctan.org/pkg/natbib?lang=en) package in conjunction
-  with the `\citet` and `\citep` commands.
+  with the `\citet`, `\citep`, and `\citeauthor` commands.
   For example, write
-  `\citet{jon90}` to get `Jones et al. (1990)` and
-  `\citep{jon90}` to get `(Jones et al., 1990)`.
+  * `\citet{jon90} proposed …` to get `Jones et al. (1990) proposed …`
+  * `Another argument \citep{jon90}` to get
+    `Another argument (Jones et al., 1990)`.
+  * `As \citeauthor{jon90} argued` to get
+    `As Jones argued` (e.g. on a subsequent mention in the same paragraph).
 
 ## Use style files
 Conference organizers and publishers often supply style files that
