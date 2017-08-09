@@ -142,6 +142,7 @@ Here are some popular LaTeX packages your may want to know about.
 * [natbib](https://www.ctan.org/pkg/natbib): Flexible bibliography support
 * [PGF/TikZ](https://www.ctan.org/pkg/pgf): Create PostScript and PDF graphics
 * [pslatex](https://www.ctan.org/pkg/pslatex): Use PostScript fonts by default
+* [siunitx](http://www.ctan.org/pkg/siunitx): A comprehensive (SI) units package
 * [url](https://www.ctan.org/pkg/url): Verbatim with URL-sensitive line breaks
 * [xcolor](https://www.ctan.org/pkg/xcolor): Driver-independent color extensions
 * [xspace](https://www.ctan.org/pkg/xspace): Define commands that appear not to eat spaces
@@ -188,10 +189,17 @@ by the speed of light ($c$) squared.
 Mark sections, tables, figures, and equations using the `\label` command,
 and reference them using the `\ref` command.
 
-## Typography
+## Tables
 * Avoid the use of rules (`\hline` and `|`) in tables.
   They are unsightly and this is the reason you will rarely see them
   in professionally typeset books.
+* Align numbers to the right, text to the left, single symbols on the center.
+* When listing numbers with a decimal point align them on the decimal
+  point.
+  You can [easily](https://tex.stackexchange.com/a/2747/10140)
+  do this by using the [siunitx](http://www.ctan.org/pkg/siunitx) package.
+
+## Typography
 * Use vector rather than bitmap images.
   So, avoid including a `.jpeg` or `.png` image if you can include
   a PDF created from vector data, e.g.  by direct export from
