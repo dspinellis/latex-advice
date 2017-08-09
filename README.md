@@ -177,7 +177,7 @@ Here are some popular LaTeX packages your may want to know about.
 \newenvironment{license}{\verbatim\scriptsize}{\normalsize\endverbatim}
 ```
 
-## Set all math in math mode
+## Mathematics
 * Set all math, including both formulas and stand-alone math symbols,
   in LaTeX's math mode.
   See the following example, which includes a little-known formula
@@ -190,6 +190,23 @@ This formula states that the equivalent energy ($E$)
 can be calculated as the mass ($m$) multiplied
 by the speed of light ($c$) squared.
 ```
+* Use balanced `\left` and `\right` commands to markup (balanced)
+  bracketing elements.
+  This ensures that the elements will be correctly sized, according
+  to the formula they include.
+  For example, write `\left(\cos(x) + i \sin(x)\right)^n`.
+* Use special markup for character sequences math mode.
+  LaTeX assumes an implicit multiplication in character sequences it
+  encounters in math mode, and sets the text with corresponding spacing.
+  * If the characters indicate one of
+  [LaTeX-supported operators](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Operators)
+  then use that operator command, e.g. `\mod`, `\max`, or `\sin`.
+  * If the characters indicate an unsupported operator,
+    declare it using the *amsmath* command `\DeclareMathOperator`,
+    e.g.  `\DeclareMathOperator{\sha}{sha}`.
+  * If the characters indicate a multi-character variable name,
+    set it in italics or roman using e.g. `\mathit{Delta}` or
+    `\mathrm{Delta}`.
 * If you write a lot of math in LaTeX, acquaint yourself and follow
   A.J. Hildebrand's
 [Top Ten List](http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
