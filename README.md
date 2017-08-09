@@ -199,12 +199,29 @@ and reference them using the `\ref` command.
   You can [easily](https://tex.stackexchange.com/a/2747/10140)
   do this by using the [siunitx](http://www.ctan.org/pkg/siunitx) package.
 
-## Typography
+## Figures
 * Use vector rather than bitmap images.
   So, avoid including a `.jpeg` or `.png` image if you can include
   a PDF created from vector data, e.g.  by direct export from
   [Inkscape](https://inkscape.org/en/) or
   [GraphViz](http://graphviz.org/) or by converting an `.svg` file.
+* Use the same font in all your figures.
+  This need to be the same font as the one you use for the document's
+  text, it could be a sans-serif one, but it should be the same e.g.
+  in charts and diagrams.
+* Ensure figure fonts are scaled to match the size of the document's
+  font.
+
+## Floats
+* Allow large displayed elements (figures, tables, listings) to have
+  a floating position by using a *figure* or *table* environment.
+* Put floats in your document before your first reference to them.
+* Don't sweat too much about float positioning while writing.
+  If your write for a journal, this will be handled during production;
+  if you will provide a camera-ready version, leave this for the last
+  minute.
+
+## Typography
 * Use three dashes (`---`) to create the *em-dash*,
   which separates parenthetical phrases.
 * Use two dashes (`--`) to create an *en-dash*.
