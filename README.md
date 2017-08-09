@@ -330,7 +330,8 @@ by the speed of light ($c$) squared.
   considerably more difficult to read than its lowercase equivalent.
   Lowercase letters have been designed for easy reading,
   uppercase were originally designed for easy chiseling on stone.
-* Use small caps for writing abbreviations.
+* Use small caps rather than an unsightly sequence of capital letters
+  for writing abbreviations.
   For example, write `\textsc{sql}`, rather than `SQL`.
   Note that some publishers do not follow this style.
   If you are supplying the final camera ready version
