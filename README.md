@@ -21,6 +21,9 @@ Contributions via *GitHub* pull requests are always welcomed.
   or PDF charts generated from R or Python scripts.
   Instead, add *Makefile* rules to automatically create these files
   at build time.
+  Generated files needlessly increase the size of the repo,
+  making it time-consuming to clone and fetch updates.
+  They also pollute difference listings with immaterial changes.
 * Commit your changes to the repository in logical chunks using
   [meaningful commit messages](https://chris.beams.io/posts/git-commit/).
 * When you remove text, delete it completely, rather than commenting
