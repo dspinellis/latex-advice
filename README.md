@@ -278,12 +278,17 @@ by the speed of light ($c$) squared.
   uppercase were originally designed for easy chiseling on stone.
 * Use small caps for writing abbreviations.
   For example, write `\textsc{sql}`, rather than `SQL`.
-* For pseudocode, use the `algorithmicx` package and environment. See 
-  [this wikibooks](https://en.wikibooks.org/wiki/LaTeX/Algorithms) 
+* Display pseudo-code using the
+  [algorithmicx](https://www.ctan.org/pkg/algorithmicx)
+  package and environment.
+  See [this wikibooks](https://en.wikibooks.org/wiki/LaTeX/Algorithms)
   entry for more details.
-* For source code snippets, use the `minted` package. Make sure your code 
-  does not go over the paragraph length; if it does, adjust line breaking 
-  and/or font size accordingly.
+* Display source code snippets using the
+  [listings](https://www.ctan.org/pkg/listings) (simpler)
+  or the [minted](https://www.ctan.org/pkg/minted)
+  (nicer, but with extra dependencies) package.
+  Make sure your code does not go over the paragraph length;
+  if it does, adjust line breaking and/or font size accordingly.
 
 ## LaTeX formatting
 * Use a tilde after `\cite` `\ref` etc. to avoid a line break immediately
