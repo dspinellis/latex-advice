@@ -116,12 +116,12 @@ for a complete example.
 * If your publisher requires in-text author-year citations, use the
   [natbib](https://www.ctan.org/pkg/natbib?lang=en) package in conjunction
   with the `\citet`, `\citep`, and `\citeauthor` commands.
-  For example, write
+  For example, write:
   * `\citet{jon90} proposed …` to get `Jones et al. (1990) proposed …`
-  * `Another argument \citep{jon90}` to get
-    `Another argument (Jones et al., 1990)`.
-  * `As \citeauthor{jon90} argued` to get
-    `As Jones argued` (e.g. on a subsequent mention in the same paragraph).
+  * `Another argument \citep{jon90} …` to get
+    `Another argument (Jones et al., 1990) …`.
+  * `As \citeauthor{jon90} argued …` to get
+    `As Jones argued …` (e.g. on a subsequent mention in the same paragraph).
 
 ## Use style files
 Conference organizers and publishers often supply style files that
