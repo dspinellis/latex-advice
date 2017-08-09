@@ -104,9 +104,13 @@ most LaTeX distributions.
 See [this StackExchange answer](https://tex.stackexchange.com/a/40759/10140)
 for a complete example.
 
-## Manage bibliographic references using BibTeX
+## Automate the management of bibliographic references
 * Create one or more centrally-managed bibliography files for your
-  work and list those in a `\bibliography` command in all documents you write.
+  work, and list those in a `\bibliography` command in all documents you write.
+* Using [BibTeX](https://en.wikipedia.org/wiki/BibTeX) or
+  [Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)) you can then
+  automatically create the document's list of references in the style
+  prescribed by the publisher.
 *  Use `\cite` commands to reference specific bibliographic entries.
 * If you need to reference a specific page or chapter, include this information
   in square brackets before the key.
@@ -137,12 +141,16 @@ for a complete example.
   * Use a consistent format for referring to conferences, for example,
     `{ICSE} '08: Proceedings of the 30th International Conference on Software Engineering`.
     It would be a mistake to use a different format, e.g.
-    `12th Working Conference on Mining Software Repositories, Proceedings of (MSR 2015)` in another entry.
+    `12th Working Conference on Mining Software Repositories (MSR 2015), Proceedings of` in another entry.
   * Specify an em-dash or en-dash where required, e.g.
-    `The Entity-Relationship Model --- Toward a Unified View of Data`.
+    `The Entity-Relationship Model --- Toward a Unified View of Data` or
+    `The Evolution of {C} Programming Practices: A Study of the {U}nix Operating System 1973--2015`.
   * Use LaTeX special characters for authors whose names contain non-ASCII
     characters, e.g.
-    `author = {Yann-Ga\"{e}l Gu\'{e}h\'{e}neuc and Herv\'{e} Albin-Amiot}`
+    `author = {Yann-Ga\"{e}l Gu\'{e}h\'{e}neuc and Herv\'{e} Albin-Amiot}`.
+    This change may not be required if you are using
+    [Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)), provided that
+    the digital library correctly provides the author names in Unicode.
 
 ## Use style files
 Conference organizers and publishers often supply style files that
