@@ -227,8 +227,8 @@ Here are some popular LaTeX packages your may want to know about.
 ```
 
 ## Mathematics
-* Set all math, including both formulas and stand-alone math symbols,
-  in LaTeX's math mode.
+* Set all math, including formulas, stand-alone math symbols,
+  and negative numbers in LaTeX's math mode.
   See the following example, which includes a little-known formula
   and in-text references to its elements.
 ```
