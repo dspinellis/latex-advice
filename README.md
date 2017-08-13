@@ -328,6 +328,7 @@ by the speed of light ($c$) squared.
   (Note that *The Associated Press Stylebook* specifies spacing.)
 * Use two dashes (`--`) to create an *en-dash*.
   Use this to specify number ranges, e.g. `2009--2015`.
+* Use `\dots` to produce an ellipsis (`...`) punctuation symbol.
 * Put footnotes *after* punctuation symbols, unless your publisher's
   style specifies otherwise.
   For example, write `… is true.\footnote{See also …}`
