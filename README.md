@@ -161,7 +161,7 @@ taste.
     It would be a mistake to use a different format, e.g.
     `12th Working Conference on Mining Software Repositories (MSR 2015), Proceedings of` in another entry.
   * Specify an em-dash or en-dash where required, e.g.
-    `The Entity-Relationship Model --- Toward a Unified View of Data` or
+    `The Entity-Relationship Model---Toward a Unified View of Data` or
     `The Evolution of {C} Programming Practices: A Study of the {U}nix Operating System 1973--2015`.
   * Use LaTeX special characters for authors whose names contain non-ASCII
     characters, e.g.
