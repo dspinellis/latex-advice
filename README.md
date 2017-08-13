@@ -313,6 +313,14 @@ by the speed of light ($c$) squared.
   minute.
 
 ## Typography
+* Be consistent in the rules you follow.
+  Some style guides offer contradicting advice,
+  e.g. regarding the placement of footnotes before or after punctuation
+  or the spacing around the *em-dash*.
+  This isn't a license to randomly use both the one or the other
+  alternative within the document.
+  Adopt your publisher's style or consistently follow the same rule
+  throughout your document.
 * Use three dashes (`---`) to create the *em-dash*,
   which separates parenthetical phrases.
   According to the *Chicago Manual of Style* (2.13),
