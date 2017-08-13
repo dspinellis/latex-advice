@@ -315,6 +315,9 @@ by the speed of light ($c$) squared.
 ## Typography
 * Use three dashes (`---`) to create the *em-dash*,
   which separates parenthetical phrases.
+  According to the *Chicago Manual of Style* (2.13),
+  an em-dash has no space before or after it.
+  (Note that *The Associated Press Stylebook* specifies spacing.)
 * Use two dashes (`--`) to create an *en-dash*.
   Use this to specify number ranges, e.g. `2009--2015`.
 * Put footnotes *after* punctuation symbols, unless your publisher's
