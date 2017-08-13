@@ -267,7 +267,7 @@ by the speed of light ($c$) squared.
 * Avoid referencing floating environments by name
   (e.g. `see Figure~\ref{fig:foo}`);`\Cref` can create that for you:
   `see~\Cref{fig:foo}`.
-* Label names should be self-descriptive.
+* Use self-descriptive label names.
   For example, use `tab:statResults` rather than  `table1`.
   Use the `tab:` prefix when labelling tables,
   the `fig:` prefix  when labelling figures, and
