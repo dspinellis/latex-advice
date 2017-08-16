@@ -374,6 +374,9 @@ by the speed of light ($c$) squared.
 * Match opening and closing quotes using one or two single-opening
   (`‘` or `‘‘`) and single-closing (`’` or `’’`) quote characters.
   Do not use the keyboard's double quote symbol (`"`).
+* Use the new local font style commands
+  (e.g. `\texttt{}`, `\textsc{}`, or `\textbf{}`)
+  rather than the old switches (e.g. `{\tt }`, `{\sc }`, `{\bf }`)
 
 ## See also
 * A.J. Hildebrand. [LaTeX Tips: Basic tips](http://www.math.uiuc.edu/~ajh/tex/basics.html)
