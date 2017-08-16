@@ -1,4 +1,25 @@
 # Advice for writing LaTeX documents
+
+- [Introduction](#introduction)
+- [Put the document under version control](#put-the-document-under-version-control)
+- [Write readable and maintainable LaTeX source code](#write-readable-and-maintainable-latex-source-code)
+- [Automate the document's build](#automate-the-document-build)
+- [Automate the management of bibliographic references](#automate-the-management-of-bibliographic-references)
+- [Use style files](#use-style-files)
+- [Use third-party LaTeX packages](#use-third-party-latex-packages)
+- [Avoid explicit formatting](#avoid-explicit-formatting)
+- [Mathematics](#mathematics)
+- [Use symbolic references](#use-symbolic-references)
+- [Tables](#tables)
+- [Figures](#figures)
+- [Floats](#floats)
+- [Typography](#typography)
+- [LaTeX formatting](#latex-formatting)
+- [See also](#see-also)
+- [License](#license)
+
+
+## Introduction
 If you're writing a scientific book, a paper, or a thesis in
 computer science, engineering, mathematics, physics or a related
 field, it pays to write it using [LaTeX](https://www.latex-project.org/about/),
@@ -98,7 +119,7 @@ this was not a major issue in this study.
   you waste time implementing them and
   your publisher may find it more difficult to use your document.
 
-## Automate the document's build
+## Automate the document build
 Ensure that the document can be built with a single command,
 and that files that are out of date are appropriately rebuilt.
 This saves you from repeatedly executing multiple commands,
