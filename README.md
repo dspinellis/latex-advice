@@ -307,6 +307,9 @@ by the speed of light ($c$) squared.
 * Allow large displayed elements (figures, tables, listings) to have
   a floating position by using a *figure* or *table* environment.
 * Put floats in your document before your first reference to them.
+* Use `\centering` within a figure or table environment to center its
+  contents.
+  This avoids the extra space introduced by the `center` environment.
 * Don't sweat too much about float positioning while writing.
   If your write for a journal, this will be handled during production;
   if you will provide a camera-ready version, leave this for the last
