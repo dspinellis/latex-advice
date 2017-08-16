@@ -385,6 +385,8 @@ by the speed of light ($c$) squared.
 * A.J. Hildebrand. [LaTeX Tips: Basic tips](http://www.math.uiuc.edu/~ajh/tex/basics.html)
 * Wikibooks. [LaTeX/Tips and Tricks](https://en.wikibooks.org/wiki/LaTeX/Tips_and_Tricks)
 * John Regehr. [John's Small Collection of LaTeX Tips](https://john.regehr.org/latex/)
+* Mark Trettin (author of German version) and Jürgen Fenn (English translation).
+  [An essential guide to LaTeX2ε usage: Obsolete commands and packages](https://ctan.org/tex-archive/info/l2tabu/english/)
 * Martin J. Osborne [Some common (la)tex errors](https://www.economics.utoronto.ca/osborne/latex/LTXERR.HTM)
 * Diomidis Spinellis. [The Elements of Computing Style](https://www.computingstyle.com/)
 * StackExchange Academia. [Does submitting a paper in Latex format enhance the chances of acceptance?](https://academia.stackexchange.com/questions/82641/does-submitting-a-paper-in-latex-format-enhance-the-chances-of-acceptance)
