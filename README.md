@@ -30,8 +30,8 @@ Here is advice for doing so, collected over decades of writing
 mostly using LaTeX.
 
 Note that this list is not intended to provide advice on
-English style or scientific writing.
-There are many excellent guides for both.
+English writing style, scientific writing, or TeX programming.
+There are many other excellent guides for all these topics.
 
 Contributions via *GitHub* pull requests are always welcomed.
 
