@@ -276,6 +276,14 @@ by the speed of light ($c$) squared.
   * If the characters indicate a multi-character variable name,
     set it in italics or roman using e.g. `\mathit{Delta}` or
     `\mathrm{Delta}`.
+* Indent elements and break lines in order to express
+  the logical structure of the formula you are writing.
+  For example, write:
+```
+F_{n} =
+  \cfrac{1}{\sqrt{5}} \left(\cfrac{1 + \sqrt{5}}{2}\right)^n -
+  \cfrac{1}{\sqrt{5}} \left(\cfrac{1 - \sqrt{5}}{2}\right)^n
+```
 * If you write a lot of math in LaTeX, acquaint yourself and follow
   A.J. Hildebrand's
 [Top Ten List](http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
