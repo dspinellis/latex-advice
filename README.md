@@ -305,11 +305,39 @@ F_{n} =
 * Avoid the use of rules (`\hline` and `|`) in tables.
   They are unsightly and this is the reason you will rarely see them
   in professionally typeset books.
-* Align numbers to the right, text to the left, single symbols on the center.
+* Specify the alignment of numbers to the right,
+  text to the left, and single symbols on the center.
 * When listing numbers with a decimal point align them on the decimal
   point.
   You can [easily](https://tex.stackexchange.com/a/2747/10140)
   do this by using the [siunitx](http://www.ctan.org/pkg/siunitx) package.
+* Use hard tabs before each column's `&` separator to start each column's
+  data on the same LaTeX source document column.
+  See the following example.
+```
+tr -cs  & 1     & \X    & --    & \V    & 1 \\
+sort w  & 0     &       & --    & \X    & 0 \\
+fmt     & 1     & \X    & --    & \V    & 1 \\
+tr A-Z  & 1     & \V    & 1     &       & 1 \\
+sort -u & fmt   & \X    & --    & \V    & 1 \\
+```
+* If the column labels are too long, start them on separate lines,
+  keeping the columns aligned with the data.
+  Example:
+```
+% Column labels
+Command and options
+        & Input requirements
+                & Matched
+                        & Connected
+                                & Matched
+                                        & Connected \\
+\hline
+% Data
+tr -cs  & 1     & \X    & --    & \V    & 1 \\
+sort w  & 0     &       & --    & \X    & 0 \\
+...
+```
 
 ## Figures
 * Use vector rather than bitmap images.
