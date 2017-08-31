@@ -163,8 +163,6 @@ taste.
     `Another argument (Jones et al., 1990) …`.
   * `As \citeauthor{jon90} argued …` to get
     `As Jones argued …` (e.g. on a subsequent mention in the same paragraph).
-* If you save the PDF document associated with a bibliography entry in
-  your files, name it using the entry's key, e.g. `LR89.pdf`.
 * If you copy-paste a BibTeX entry from a digital library,
   edit it carefully to ensure a consistent high-level of quality.
   * Write the title using
@@ -190,6 +188,28 @@ taste.
     This change may not be required if you are using
     [Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)), provided that
     the digital library correctly provides the author names in Unicode.
+* Use consistent, easily derivable, short names for your bibliography entries.
+  One practical scheme is as follows.
+  * The single author's surname first three letters, followed by the
+    last two year digits, e.g. `Ker08` for an article published
+    by `Brian Kernighan` in 2008.
+  * Up to four multi-author surname initials followed by the last two year
+    digits, e.g. `DMG07` for an article published by
+    `Duvall, Paul M. and Matyas, Steve and Glover, Andrew` in 2007.
+  * The letter`a`, `b`, `c`, etc appended to the above keys in the case
+    of clashes.
+  Through this scheme you can easily search for an existing entry in your
+  bibliography files and saved articles, because you can quickly derive
+  the key used.
+  Also this scheme will help you avoid duplicate entries, because they
+  corresponding keys will clash.
+* If you save the PDF document associated with a bibliography entry in
+  your files, name it using the entry's key, e.g. `LR89.pdf`.
+* If you print (or photocopy) a document associated with a bibliography
+  entry, write the corresponding key on its top right corner.
+  This will help you reference it in your work.
+  You can also use this key to file the printout so that you can find it
+  in the future.
 
 ## Use style files
 Conference organizers and publishers often supply style files that
