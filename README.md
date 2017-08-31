@@ -198,6 +198,7 @@ taste.
     `Duvall, Paul M. and Matyas, Steve and Glover, Andrew` in 2007.
   * The letter`a`, `b`, `c`, etc appended to the above keys in the case
     of clashes.
+
   Through this scheme you can easily search for an existing entry in your
   bibliography files and saved articles, because you can quickly derive
   the key used.
