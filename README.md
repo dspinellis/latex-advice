@@ -228,6 +228,7 @@ your document third-party LaTeX packages.
 Most LaTeX distributions provide a package management system
 that simplifies the installation and maintenance of packages.
 Here are some popular LaTeX packages your may want to know about.
+* [algorithmicx](https://www.ctan.org/pkg/algorithmicx): Display good-looking pseudocode
 * [amsmath, amssymb](https://www.ctan.org/pkg/amsmath): AMS mathematical facilities
 * [amsthm](https://www.ctan.org/pkg/amsthm): Typesetting theorems (AMS style)
 * [booktabs](https://www.ctan.org/pkg/booktabs): Publication quality tables
