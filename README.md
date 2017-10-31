@@ -61,7 +61,7 @@ Contributions via *GitHub* pull requests are always welcomed.
 * Treat the LaTeX source code with love and care as you would treat
   software code.
   You aim is to keep the source code readable and maintainable.
-* Avoid long lines, slitting text somewhere between column 60 and 70.
+* Avoid long lines, splitting text somewhere between column 60 and 70.
   (You can configure your editor to do this for you).
 * Start each phrase on a separate line, and further split a phrase
   according to its logical structure.
