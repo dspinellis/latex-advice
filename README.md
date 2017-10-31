@@ -56,6 +56,11 @@ Contributions via *GitHub* pull requests are always welcomed.
   it out.
   The version control system will keep track of it and your document
   will remain clean.
+* Tag the revisions you submit using annotated tag objects (`git tag -a`).
+  This allows you to go back to specific versions when going over review comments,
+  or when starting a version of a new publication venue.
+  Push the tags to the online repository you're using so that all can see them
+  (`git push --tags`).
 
 ## Write readable and maintainable LaTeX source code
 * Treat the LaTeX source code with love and care as you would treat
