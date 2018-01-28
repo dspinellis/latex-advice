@@ -131,13 +131,6 @@ this was not a major issue in this study.
   file to another or to use external tools.
   Feel free to split longer documents (such as a book or a thesis) in order
   to shorten a project's long build and loading time.
-  
-* Finally, don't spend too much time on formatting.
-  Concentrate on communicating your ideas and on making your document
-  maintainable.
-  Excessive formatting tweaks can be counterproductive:
-  you waste time implementing them and
-  your publisher may find it more difficult to use your document.
 
 ## Automate the document build
 Ensure that the document can be built with a single command,
@@ -466,6 +459,12 @@ sort w  & 0     &       & --    & \X    & 0 \\
   if it does, adjust line breaking and/or font size accordingly.
 
 ## LaTeX formatting
+* Don't spend too much time on formatting your document.
+  Concentrate on communicating your ideas and on making your document
+  maintainable.
+  Excessive formatting tweaks can be counterproductive:
+  you waste time implementing them and
+  your publisher may find it more difficult to use your document.
 * Use a tilde before `\cite` `\ref` etc. to avoid a line break immediately
   before the reference.
   For example, write `Some also use logging statements~\cite{Spi06e}`.
