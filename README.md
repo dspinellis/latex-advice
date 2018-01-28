@@ -117,6 +117,21 @@ this was not a major issue in this study.
 ```
 % Advantages of model-based development {{{3
 ```
+* Avoid splitting short documents (such as a journal or conference paper)
+  into multiple files (e.g. `introduction.tex`, `methods.tex`, `results.tex`,
+  `conclusions.tex`).
+  Such splitting makes it difficult to work perform a number of tasks with
+  your editor:
+  * overview the material's composition
+    (e.g. the balance of the sections' length),
+  * globally search or search and replace a particular term, and
+  * move matter from one section to another.
+  
+  When the document is split, these tasks require you to switch from one
+  file to another or to use external tools.
+  Feel free to split longer documents (such as a book or a thesis) in order
+  to shorten a project's long build and loading time.
+  
 * Finally, don't spend too much time on formatting.
   Concentrate on communicating your ideas and on making your document
   maintainable.
