@@ -16,6 +16,7 @@
 - [Floats](#floats)
 - [Typography](#typography)
 - [LaTeX formatting](#latex-formatting)
+- [Enforce all of the above](#enforce-all-of-the-above)
 - [See also](#see-also)
 - [License](#license)
 
@@ -500,6 +501,16 @@ sort w  & 0     &       & --    & \X    & 0 \\
 \usepackage[scaled=.90]{helvet}
 \usepackage{courier}
 ```
+
+## Enforce all of the above
+
+CI enthusiasts will want to include the [ChkTeX](http://www.nongnu.org/chktex/)
+linter into their build process, which checks documents for certain LaTeX
+anti-patterns, like the use of `...` instead of the typographically correct
+`\dots` or other such violations. Users can define their own rules, too, for
+example to enforce consistency in the spelling of certain phrases. Now it is up
+to you to create ChkTeX rules to enforce the guidelines in this document ... (if
+you, would you mind sharing?)
 
 ## See also
 * A.J. Hildebrand. [LaTeX Tips: Basic tips](http://www.math.uiuc.edu/~ajh/tex/basics.html)
