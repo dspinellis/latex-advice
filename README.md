@@ -510,7 +510,7 @@ anti-patterns, like the use of `...` instead of the typographically correct
 `\dots` or other such violations. Users can define their own rules, too, for
 example to enforce consistency in the spelling of certain phrases. Now it is up
 to you to create ChkTeX rules to enforce the guidelines in this document ... (if
-you, would you mind sharing?)
+you do, would you mind sharing?)
 
 ## See also
 * A.J. Hildebrand. [LaTeX Tips: Basic tips](http://www.math.uiuc.edu/~ajh/tex/basics.html)
