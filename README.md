@@ -4,6 +4,7 @@
 - [Put the document under version control](#put-the-document-under-version-control)
 - [Write readable and maintainable LaTeX source code](#write-readable-and-maintainable-latex-source-code)
 - [Automate the document's build](#automate-the-document-build)
+- [Use Continuous Integration](#use-continuous-integration)
 - [Automate the management of bibliographic references](#automate-the-management-of-bibliographic-references)
 - [Use style files](#use-style-files)
 - [Use third-party LaTeX packages](#use-third-party-latex-packages)
@@ -156,6 +157,20 @@ Both *latexmk* and *BSD Owl* will help you create clean and functional
 build setups.
 Choose the one that is easier to install on your system and matches your
 taste.
+
+##Use Continuous Integration##
+
+Once you have automated your build, you are ready for the next step: CI for
+LaTeX documents! Executing an automated build on every commit allows you to
+easily spot accidentally forgotten auxiliary files such as images or tables. You
+can also easily isolate changes that broke the build and that are sometimes hard
+to debug later. Moreover, it creates a defined way to build your project that
+every collaborator can rely on.
+
+Thanks to [travis-ci-latex-pdf](https://github.com/harshjv/travis-ci-latex-pdf),
+there is a ready-made solution for Travis CI that you just need to copy into
+your project to get started.
+
 ## Automate the management of bibliographic references
 * Create one or more centrally-managed bibliography files for your
   work, and list those in a `\bibliography` command in all documents you write.
