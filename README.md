@@ -159,7 +159,7 @@ build setups.
 Choose the one that is easier to install on your system and matches your
 taste.
 
-##Use Continuous Integration##
+## Use Continuous Integration
 
 Once you have automated your build, you are ready for the next step: CI for
 LaTeX documents! Executing an automated build on every commit allows you to
