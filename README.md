@@ -154,10 +154,18 @@ You have three options here.
   [BSD Owl](https://github.com/michipili/bsdowl) scripts,
   as documented
   [here](https://github.com/michipili/bsdowl/blob/master/doc/LaTeXDocument.md).
-Both *latexmk* and *BSD Owl* will help you create clean and functional
-build setups.
-Choose the one that is easier to install on your system and matches your
-taste.
+  Both *latexmk* and *BSD Owl* will help you create clean and functional
+  build setups.
+  Choose the one that is easier to install on your system and matches your
+  taste.
+* A fourth alternative is
+  [SCons](https://scons.org/).
+  SCons' configuration files, typically named `SConstruct`,
+  are Python scripts.
+  One such is demonstrated
+  [here](https://tex.stackexchange.com/a/26573/8272).
+  You may find a short overview of supported commands/packages
+  [here](https://github.com/SCons/scons/wiki/LatexSupport).
 
 ## Use Continuous Integration
 
