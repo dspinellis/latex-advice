@@ -529,6 +529,7 @@ you do, would you mind sharing?)
 * Martin J. Osborne [Some common (la)tex errors](https://www.economics.utoronto.ca/osborne/latex/LTXERR.HTM)
 * Diomidis Spinellis. [The Elements of Computing Style](https://www.computingstyle.com/)
 * StackExchange Academia. [Does submitting a paper in Latex format enhance the chances of acceptance?](https://academia.stackexchange.com/questions/82641/does-submitting-a-paper-in-latex-format-enhance-the-chances-of-acceptance)
+* Greek with XeLaTeX. [GitHub Repository](https://github.com/papachristoumarios/greek-latex)
 
 ## License
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
