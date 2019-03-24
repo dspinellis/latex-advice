@@ -221,6 +221,7 @@ your project to get started.
     `{ICSE} '08: Proceedings of the 30th International Conference on Software Engineering`.
     It would be a mistake to use a different format, e.g.
     `12th Working Conference on Mining Software Repositories (MSR 2015), Proceedings of` in another entry.
+  * Don't include a URL for entries that have a DOI.
   * Specify an em-dash or en-dash where required, e.g.
     `The Entity-Relationship Model---Toward a Unified View of Data` or
     `The Evolution of {C} Programming Practices: A Study of the {U}nix Operating System 1973--2015`.
