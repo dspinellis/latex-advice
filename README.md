@@ -169,16 +169,28 @@ You have three options here.
 
 ## Use Continuous Integration
 
-Once you have automated your build, you are ready for the next step: CI for
-LaTeX documents! Executing an automated build on every commit allows you to
-easily spot accidentally forgotten auxiliary files such as images or tables. You
-can also easily isolate changes that broke the build and that are sometimes hard
-to debug later. Moreover, it creates a defined way to build your project that
-every collaborator can rely on.
+Once you have automated your build, you are ready for the next step:
+continuous integration (CI) for LaTeX documents.
+Executing an automated build on every commit allows you to
+easily spot accidentally forgotten auxiliary files such as images or tables.
+You can also easily isolate changes that broke the build and that are
+sometimes hard to debug later.
+Moreover, CI creates a defined way to build your project,
+on which every collaborator can rely on.
 
 Thanks to [travis-ci-latex-pdf](https://github.com/harshjv/travis-ci-latex-pdf),
-there is a ready-made solution for Travis CI that you just need to copy into
-your project to get started.
+there is a ready-made solution for [Travis CI](http://travis-ci.org/)
+that you just need to copy into your project to get started.
+
+Another alternative involves integrating the
+[ChkTeX](http://www.nongnu.org/chktex/) linter into the build process.
+This checks documents for certain LaTeX anti-patterns, such as the use of
+`...` instead of the typographically correct `\dots` or other such violations.
+Users can define their own rules, too, for example to enforce consistency
+in the spelling of certain phrases.
+Now it is up to you to create ChkTeX rules to enforce the guidelines in this
+document.
+If you do, please share them.
 
 ## Automate the management of bibliographic references
 * Create one or more centrally-managed bibliography files for your
@@ -515,16 +527,6 @@ sort w  & 0     &       & --    & \X    & 0 \\
 \usepackage[scaled=.90]{helvet}
 \usepackage{courier}
 ```
-
-## Enforce all of the above
-
-CI enthusiasts will want to include the [ChkTeX](http://www.nongnu.org/chktex/)
-linter into their build process, which checks documents for certain LaTeX
-anti-patterns, like the use of `...` instead of the typographically correct
-`\dots` or other such violations. Users can define their own rules, too, for
-example to enforce consistency in the spelling of certain phrases. Now it is up
-to you to create ChkTeX rules to enforce the guidelines in this document ... (if
-you do, would you mind sharing?)
 
 ## See also
 * A.J. Hildebrand. [LaTeX Tips: Basic tips](http://www.math.uiuc.edu/~ajh/tex/basics.html)
