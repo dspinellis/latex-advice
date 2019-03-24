@@ -1,0 +1,218 @@
+%
+% Schema of a BibTeX file
+%
+% Copy this file and use it as a template for creating your new entries.
+% See also https://github.com/dspinellis/latex-advice
+%
+% (C) Copyright 1990-2019 Diomidis Spinellis.
+%
+% This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+% International License.
+%
+
+% Documentation of all possible fields
+@Misc{Key,
+	Address="Publishers address.  For major ones just the city",
+	Annote="Annotation",
+	Author="First Last or Last, First.  Multiple are separated by and",
+	Booktitle="Title properly capitalised",
+	Chapter="A chapter number",
+	Edition="Edition of the book, e.g. second",
+	Editor="First Last or Last, First.  Multiple are separated by and",
+	HowPublished="If it was published in a strange way",
+	Institution="Institution that published it",
+	Journal="Journal name.  Abreviations may exist ($TEXINPUTS/*.bst)",
+	Key="Used for alphabetizing and creating a label when no author",
+	Month="Month of publication, usual abbreviations",
+	Note="Additional information to help the reader",
+	Number="Number of a journal magazine to TR.",
+	Organization="Organization sponsoring the conference.",
+	Pages="Page numbers or range.",
+	Publisher="Publisher's name.",
+	DOI="Digital Object Identifier (without the DOI prefix)",
+	URL="Uniform Resource Locator",
+	School="Name of the school where the thesis was written.",
+	Series="The name of a series or set of books.",
+	Title="The work's title.",
+	Type="Type of a technical report e.g. Research Note",
+	Volume="The volume of a journal or multivolume book.",
+	Year="The year of publication.  Numerals only."
+}
+
+% Templates for each type.
+@Article{
+	Title="Required",
+	URL="Optional",
+	DOI="Optional",
+	Author="Required",
+	Journal="Required",
+	Volume="Optional",
+	Number="Optional",
+	Pages="Optional",
+	Month="Optional",
+	Year="Required",
+	URL="Optional",
+	Note="Optional"
+}
+
+@Book{
+	Title="Required",
+	URL="Optional",
+	Edition="Optional",
+	Series="Optional",
+	Volume="Optional",
+	Author="Required or Editor",
+	Editor="Required or Author",
+	Publisher="Required",
+	Address="Optional",
+	Month="Optional",
+	Year="Required",
+	Note="Optional",
+	ISBN="Optional"
+}
+
+@Booklet{
+	Address="Optional",
+	Author="Optional",
+	HowPublished="Optional",
+	Key="Optional (needed if no Author)",
+	Month="Optional",
+	Note="Optional",
+	Title="Required",
+	URL="Optional",
+	Year="Optional"
+}
+
+@InBook{
+	Address="Optional",
+	Author="Required or Editor",
+	Chapter="Required or Pages",
+	Edition="Optional",
+	Editor="Required or Author",
+	Month="Optional",
+	Note="Optional",
+	Pages="Required or Chapter",
+	Publisher="Required",
+	Series="Optional",
+	Title="Required",
+	URL="Optional",
+	Volume="Optional",
+	Year="Required"
+}
+
+@InCollection{
+	Author="Required",
+	Title="Required",
+	URL="Optional",
+	DOI="Optional",
+	Chapter="Optional",
+	Pages="Required",
+	Editor="Optional",
+	Booktitle="Required",
+	Publisher="Required",
+	Address="Optional",
+	Month="Optional",
+	Year="Required",
+	Note="Optional"
+}
+
+@InProceedings{
+	Title="Required",
+	URL="Optional",
+	DOI="Optional",
+	Author="Required",
+	Booktitle="Required",
+	Location="Optional",
+	Month="Optional",
+	Year="Required",
+	Organization="Optional",
+	Pages="Optional",
+	Editor="Optional",
+	Address="Optional",
+	Publisher="Optional",
+	Note="Optional",
+	URL="Optional"
+}
+
+@Manual{
+	Address="Optional",
+	Annote="Annotation",
+	Author="Optional",
+	Edition="Optional",
+	Key="Optional (needed if no Author)",
+	Month="Optional",
+	Note="Optional",
+	Organization="Optional",
+	Title="Required",
+	URL="Optional",
+	Year="Optional"
+}
+
+@MastersThesis{
+	Address="Optional",
+	Author="Required",
+	Month="Optional",
+	Note="Optional",
+	School="Required",
+	Title="Required",
+	URL="Optional",
+	Year="Required"
+}
+
+@Misc{
+	Author="Optional",
+	HowPublished="Optional",
+	Key="Optional (needed if no Author)",
+	Month="Optional",
+	Note="Optional",
+	Title="Optional",
+	URL="Optional",
+	Year="Optional"
+}
+
+@PhDThesis{
+	Address="Optional",
+	Author="Required",
+	Month="Optional",
+	Note="Optional",
+	School="Required",
+	Title="Required",
+	URL="Optional",
+	Year="Required"
+}
+
+@Proceedings{
+	Title="Required",
+	URL="Optional",
+	DOI="Optional",
+	Editor="Optional",
+	Note="Optional",
+	Organization="Optional",
+	Location="Optional",
+	Publisher="Optional",
+	Month="Optional",
+	Year="Required"
+}
+
+@TechReport{
+	Author="Required",
+	Title="Required",
+	URL="Optional",
+	DOI="Optional",
+	Note="Optional",
+	Type="Optional",
+	Number="Optional",
+	Month="Optional",
+	Year="Required",
+	Institution="Required",
+	Address="Optional"
+}
+
+@Unpublished{
+	Author="Required",
+	Month="Optional",
+	Note="Required",
+	Title="Required",
+	URL="Optional",
+	Year="Optional"
+}

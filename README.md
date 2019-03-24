@@ -200,6 +200,11 @@ your project to get started.
     `Another argument (Jones et al., 1990) …`.
   * `As \citeauthor{jon90} argued …` to get
     `As Jones argued …` (e.g. on a subsequent mention in the same paragraph).
+* Include in your BibTeX entries all required fields and as many of the
+  optional fields as possible. Copy and consult
+  [this file](https://github.com/dspinellis/latex-advice/blob/master/schema.bib)
+  to remember which fields are available, which are required, and which
+  are supported for each entry type.
 * If you copy-paste a BibTeX entry from a digital library,
   edit it carefully to ensure a consistent high-level of quality.
   * Write the title using
