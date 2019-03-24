@@ -183,7 +183,7 @@ your project to get started.
 ## Automate the management of bibliographic references
 * Create one or more centrally-managed bibliography files for your
   work, and list those in a `\bibliography` command in all documents you write.
-* Using [BibTeX](https://en.wikipedia.org/wiki/BibTeX) or
+* Using [BibLaTeX](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf) with
   [Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)) you can then
   automatically create the document's list of references in the style
   prescribed by the publisher.
@@ -346,9 +346,10 @@ by the speed of light ($c$) squared.
   For example, write:
 ```
 F_{n} =
-  \cfrac{1}{\sqrt{5}} \left(\cfrac{1 + \sqrt{5}}{2}\right)^n -
-  \cfrac{1}{\sqrt{5}} \left(\cfrac{1 - \sqrt{5}}{2}\right)^n
+  \cfrac{1}{\sqrt{5}} \left(\cfrac{1 + \sqrt{5}}{2}\right)^n
+  - \cfrac{1}{\sqrt{5}} \left(\cfrac{1 - \sqrt{5}}{2}\right)^n
 ```
+  Keep the operators as the first character on a line.
 * If you write a lot of math in LaTeX, acquaint yourself and follow
   A.J. Hildebrand's
 [Top Ten List](http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
