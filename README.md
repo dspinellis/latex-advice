@@ -195,7 +195,7 @@ If you do, please share them.
 ## Automate the management of bibliographic references
 * Create one or more centrally-managed bibliography files for your
   work, and list those in a `\bibliography` command in all documents you write.
-* Using [BibLaTeX](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf) with
+* Using [BibTeX](https://en.wikipedia.org/wiki/BibTeX) or
   [Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)) you can then
   automatically create the document's list of references in the style
   prescribed by the publisher.
@@ -203,7 +203,9 @@ If you do, please share them.
 * If you need to reference a specific page or chapter, include this information
   in square brackets before the key.
   For example, write: `… educational use~\cite[p.~8]{LR89}.`
-* If your publisher requires in-text author-year citations, use the
+* If your publisher requires in-text author-year citations, use
+  [BibLaTeX](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf)
+  or the
   [natbib](https://www.ctan.org/pkg/natbib?lang=en) package in conjunction
   with the `\citet`, `\citep`, and `\citeauthor` commands.
   For example, write:
