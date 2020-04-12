@@ -418,6 +418,17 @@ tr -cs  & 1     & \X    & --    & \V    & 1 \\
 sort w  & 0     &       & --    & \X    & 0 \\
 ...
 ```
+* If you want horizontal rules, use `\toprule`, `\midrule` and
+  `\bottomrule` from the `booktabs` package.
+  Example:
+```
+\toprule
+Header \\
+\midrule
+Table row 1 \\
+Table row 2 \\
+\bottomrule
+```
 
 ## Figures
 * Use vector rather than bitmap images.
