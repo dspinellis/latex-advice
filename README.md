@@ -524,6 +524,9 @@ sort w  & 0     &       & --    & \X    & 0 \\
 * Match opening and closing quotes using one or two single-opening
   (`‘` or `‘‘`) and single-closing (`’` or `’’`) quote characters.
   Do not use the keyboard's double quote symbol (`"`).
+  Alternatively you can use the `\enquote{}` macro from the `csquotes`
+  package, which will automatically set the right quotes for the
+  configure language and can handle nested quotes correctly.
 * Use the new local font style commands
   (e.g. `\texttt{}`, `\textsc{}`, or `\textbf{}`)
   rather than the old switches (e.g. `{\tt }`, `{\sc }`, `{\bf }`)
