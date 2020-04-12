@@ -516,6 +516,11 @@ sort w  & 0     &       & --    & \X    & 0 \\
 * Put a backslash after a non-sentence ending period to ensure this will
   not be followed by the period-ending spacing.
   For example, write `In 1962 Watson et al.\ famously found …`
+* Do not use math mode to achieve typographic effects in plain text.
+  For example write  `RQ\textsubscript{2}` rather than `$RQ_2$`, if you
+   must subscript the number of your research question 2.
+  Similarly use `\textsuperscript` for plain superscripted text (e.g.
+  Wisper Quiet\texsuperscript{TM}).
 * Match opening and closing quotes using one or two single-opening
   (`‘` or `‘‘`) and single-closing (`’` or `’’`) quote characters.
   Do not use the keyboard's double quote symbol (`"`).
