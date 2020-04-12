@@ -140,7 +140,7 @@ and that files that are out of date are appropriately rebuilt.
 This saves you from repeatedly executing multiple commands,
 makes it easier to work as a team, and
 avoids the accidental use of outdated files.
-You have three options here.
+You have four options here.
 * You can use the Unix *make* command.
   It's available out of the box, but expressing the need for
   multiple passes over your document is difficult,
