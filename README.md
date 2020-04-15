@@ -437,7 +437,7 @@ Table row 2 \\
   [Inkscape](https://inkscape.org/en/) or
   [GraphViz](http://graphviz.org/) or by converting an `.svg` file.
 * Use the same font in all your figures.
-  This need to be the same font as the one you use for the document's
+  This does not need to be the same font as the one you use for the document's
   text, it could be a sans-serif one, but it should be the same e.g.
   in charts and diagrams.
 * Ensure figure fonts are scaled to match the size of the document's
