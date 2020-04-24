@@ -268,6 +268,8 @@ If you do, please share them.
   This will help you reference it in your work.
   You can also use this key to file the printout so that you can find it
   in the future.
+* If you prefer to edit your BibTeX files with a desktop application
+  rather than an editor, consider using [JabRef](https://www.jabref.org/).
 
 ## Use style files
 Conference organizers and publishers often supply style files that
