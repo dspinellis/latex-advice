@@ -219,6 +219,10 @@ If you do, please share them.
   [this file](https://github.com/dspinellis/latex-advice/blob/master/schema.bib)
   to remember which fields are available, which are required, and which
   are supported for each entry type.
+* Obtain a BibTeX entry for a publication's DOI using the
+  [doi2bib](https://www.doi2bib.org/) service.
+  In many cases the quality of its results is higher than that provided
+  by the publisher's digital library.
 * If you copy-paste a BibTeX entry from a digital library,
   edit it carefully to ensure a consistent high-level of quality.
   * Write the title using
