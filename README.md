@@ -279,6 +279,8 @@ If you do, please share them.
 Conference organizers and publishers often supply style files that
 determine the appearance and formatting of a document and its references.
 Download them and use them.
+If you're writing a thesis and your institution doesn't provide a template
+you can use [this one](https://github.com/derric/cleanthesis).
 Seeing your document in its published look
 boosts your motivation,
 helps you appreciate how your readers will experience it, and
