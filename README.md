@@ -399,6 +399,8 @@ F_{n} =
   point.
   You can [easily](https://tex.stackexchange.com/a/2747/10140)
   do this by using the [siunitx](http://www.ctan.org/pkg/siunitx) package.
+* When reporting numbers [round them to the appropriate number of significant
+digits and decimal places](https://adc.bmj.com/content/archdischild/100/7/608.full.pdf).
 * Use hard tabs before each column's `&` separator to start each column's
   data on the same LaTeX source document column.
   See the following example.
