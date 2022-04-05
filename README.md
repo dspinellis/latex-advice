@@ -195,6 +195,8 @@ If you do, please share them.
 ## Automate the management of bibliographic references
 * Create one or more centrally-managed bibliography files for your
   work, and list those in a `\bibliography` command in all documents you write.
+  You can use [these tools](https://github.com/dspinellis/bibtools)
+  to share your references with others and navigate to them.
 * Using [BibTeX](https://en.wikipedia.org/wiki/BibTeX) or
   [Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)) you can then
   automatically create the document's list of references in the style
