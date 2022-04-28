@@ -276,6 +276,9 @@ If you do, please share them.
   in the future.
 * If you prefer to edit your BibTeX files with a desktop application
   rather than an editor, consider using [JabRef](https://www.jabref.org/).
+* See
+  [Bibtool](http://www.gerd-neugebauer.de/software/TeX/BibTool/en/) by
+  Gerd Neugebauer, a cli tool for manipulating bibtex data bases.
 
 ## Use style files
 Conference organizers and publishers often supply style files that
