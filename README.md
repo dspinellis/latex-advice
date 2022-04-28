@@ -274,11 +274,11 @@ If you do, please share them.
   This will help you reference it in your work.
   You can also use this key to file the printout so that you can find it
   in the future.
-* If you prefer to edit your BibTeX files with a desktop application
-  rather than an editor, consider using [JabRef](https://www.jabref.org/).
-* See
-  [Bibtool](http://www.gerd-neugebauer.de/software/TeX/BibTool/en/) by
-  Gerd Neugebauer, a cli tool for manipulating bibtex data bases.
+* If you prefer to edit your BibTeX files with an application
+  rather than a generic editor, consider using
+  [JabRef](https://www.jabref.org/) for the desktop or
+  [Bibtool](http://www.gerd-neugebauer.de/software/TeX/BibTool/en/)
+  on the command line.
 
 ## Use style files
 Conference organizers and publishers often supply style files that
