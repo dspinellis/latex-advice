@@ -305,6 +305,7 @@ Here are some popular LaTeX packages your may want to know about.
 * [cite](https://www.ctan.org/pkg/cite): Improved citation handling
 * [fancyhdr](https://www.ctan.org/pkg/fancyhdr): Extensive control of page headers and footers
 * [geometry](https://www.ctan.org/pkg/geometry): Flexible and complete interface to document dimensions
+* [glossaries](https://ctan.org/pkg/glossaries): Define and typeset acronyms and glossaries
 * [hyperref](https://www.ctan.org/pkg/hyperref): Extensive support for hypertext
 * [listings](https://www.ctan.org/pkg/listings): Typeset source code listings
 * [minted](https://www.ctan.org/pkg/minted): Typeset source code listings with highligthing
