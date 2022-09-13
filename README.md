@@ -15,9 +15,9 @@
 - [Figures](#figures)
 - [Floats](#floats)
 - [Typography](#typography)
-- [Writing](#writing)
 - [LaTeX formatting](#latex-formatting)
 - [Enforce all of the above](#enforce-all-of-the-above)
+- [Writing](#writing)
 - [See also](#see-also)
 - [License](#license)
 
@@ -538,7 +538,47 @@ Table row 2 \\
   Make sure your code does not go over the paragraph length;
   if it does, adjust line breaking and/or font size accordingly.
 
+## LaTeX formatting
+* Don't spend too much time on formatting your document.
+  Concentrate on communicating your ideas and on making your document
+  maintainable.
+  Excessive formatting tweaks can be counterproductive:
+  you waste time implementing them and
+  your publisher may find it more difficult to use your document.
+* Use a tilde before `\cite` `\ref` etc. to avoid a line break immediately
+  before the reference.
+  For example, write `Some also use logging statements~\cite{Spi06e}`.
+* Put a backslash after a non-sentence ending period to ensure this will
+  not be followed by the period-ending spacing.
+  For example, write `In 1962 Watson et al.\ famously found …`
+* Do not use math mode to achieve typographic effects in plain text.
+  For example write  `RQ\textsubscript{2}` rather than `$RQ_2$`, if you
+   must subscript the number of your research question 2.
+  Similarly use `\textsuperscript` for plain superscripted text (e.g.
+  Wisper Quiet\texsuperscript{TM}).
+* Match opening and closing quotes using one or two single-opening
+  (`‘` or `‘‘`) and single-closing (`’` or `’’`) quote characters.
+  Do not use the keyboard's double quote symbol (`"`).
+  Alternatively you can use the `\enquote{}` macro from the `csquotes`
+  package, which will automatically set the right quotes for the
+  configure language and can handle nested quotes correctly.
+* Use the new local font style commands
+  (e.g. `\texttt{}`, `\textsc{}`, or `\textbf{}`)
+  rather than the old switches (e.g. `{\tt }`, `{\sc }`, `{\bf }`)
+* To obtain a PDF document with the widely available Times/Helvetica/Courier
+  font set, rather than the LaTeX, less widely used, Computer Modern fonts,
+  use the following packages.
+```
+\usepackage{mathptmx}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+```
+
 ## Writing
+This guide focuses on LaTeX document preparation.
+Nevertheless, here is some advice for improving your
+writing and for avoiding common mistakes.
+
 * Read, learn, and apply Strunk and White's
   [The Elements of Style](https://gutenberg.org/ebooks/37134).
 * Express each idea in a separate paragraph.
@@ -589,41 +629,6 @@ Table row 2 \\
   command-line invocation sequences:
   "By running `git log HEAD` we were able to inspect the most recent changes."
 
-## LaTeX formatting
-* Don't spend too much time on formatting your document.
-  Concentrate on communicating your ideas and on making your document
-  maintainable.
-  Excessive formatting tweaks can be counterproductive:
-  you waste time implementing them and
-  your publisher may find it more difficult to use your document.
-* Use a tilde before `\cite` `\ref` etc. to avoid a line break immediately
-  before the reference.
-  For example, write `Some also use logging statements~\cite{Spi06e}`.
-* Put a backslash after a non-sentence ending period to ensure this will
-  not be followed by the period-ending spacing.
-  For example, write `In 1962 Watson et al.\ famously found …`
-* Do not use math mode to achieve typographic effects in plain text.
-  For example write  `RQ\textsubscript{2}` rather than `$RQ_2$`, if you
-   must subscript the number of your research question 2.
-  Similarly use `\textsuperscript` for plain superscripted text (e.g.
-  Wisper Quiet\texsuperscript{TM}).
-* Match opening and closing quotes using one or two single-opening
-  (`‘` or `‘‘`) and single-closing (`’` or `’’`) quote characters.
-  Do not use the keyboard's double quote symbol (`"`).
-  Alternatively you can use the `\enquote{}` macro from the `csquotes`
-  package, which will automatically set the right quotes for the
-  configure language and can handle nested quotes correctly.
-* Use the new local font style commands
-  (e.g. `\texttt{}`, `\textsc{}`, or `\textbf{}`)
-  rather than the old switches (e.g. `{\tt }`, `{\sc }`, `{\bf }`)
-* To obtain a PDF document with the widely available Times/Helvetica/Courier
-  font set, rather than the LaTeX, less widely used, Computer Modern fonts,
-  use the following packages.
-```
-\usepackage{mathptmx}
-\usepackage[scaled=.90]{helvet}
-\usepackage{courier}
-```
 
 ## See also
 * A.J. Hildebrand. [LaTeX Tips: Basic tips](http://www.math.uiuc.edu/~ajh/tex/basics.html)
