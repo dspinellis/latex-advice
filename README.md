@@ -465,8 +465,6 @@ Table row 2 \\
   If you scale the figure by an arbitrary amount to match the document's
   column width, , you can load the resultant PDF in Inkscape and measure the
   font size there.
-* Given that floating figures are described by their caption, there is no
-  need to include a separate figure title.
 * Label the figure's axes.
 
 ## Floats
@@ -480,6 +478,9 @@ Table row 2 \\
   If your write for a journal, this will be handled during production;
   if you will provide a camera-ready version, leave this for the last
   minute.
+* Unless specified otherwise by your publisher,
+  place table captions _above_ the table and
+  figure captions _below_ the figure.
 
 ## Typography
 * Be consistent in the rules you follow.
@@ -555,8 +556,34 @@ Table row 2 \\
   Instead, present objective figures that speak for themselves.
 * When reporting numbers [round them to the appropriate number of significant
   digits and decimal places](https://dx.doi.org/10.1136/archdischild-2014-307149).
+* Avoid treating bibliographic references as nouns.
+  "According to [12] there are there are two escape mechanisms"
+  write
+  "According to reference [12] there are two escape mechanisms",
+  or
+  "According to Smith [12] there are two cases", or
+  (parenthetically) "There are two escape mechanisms [12]".
+  Similarly, for author year reference styles, rather than writing
+  "According to (Smith 2020) there are there are two escape mechanisms"
+  write
+  "According to Smith (2020) there are two escape mechanisms",
+  or
+  (parenthetically) "There are two escape mechanisms (Smith 2020)".
+  There are commands that will automatically provide the author name
+  with suitable brackets.
+  These vary depending on the bibliography reference package you're using.
+  For instance, under _natbib_ you can write
+  `\citet{Smi20}` to obtain "Smith [12]" or "Smith (2020)" or
+  `\citeauthor{Smi20}` to obtain "Smith".
 * Spell out numbers below 13, unless the number is used as a proper noun
   (Section 2) or as part of an arithmetic construct (element a[6]).
+* Treat software system names as proper nouns.
+  Just as you capitalize "Microsoft Windows", write
+  "We used Git to store past versions.", "We employed a Python script …" or
+  "The generics that Java provides …".
+  Use lowercase (and a code-like font) only when you refer to the actual
+  command-line invocation sequences:
+  "By running `git log HEAD` we were able to inspect the most recent changes."
 
 ## LaTeX formatting
 * Don't spend too much time on formatting your document.
