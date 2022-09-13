@@ -230,7 +230,7 @@ If you do, please share them.
 * If you copy-paste a BibTeX entry from a digital library,
   edit it carefully to ensure a consistent high-level of quality.
   * Write the title using
-    [title capitalization](http://grammarist.com/style/title-capitalization/),
+    [title capitalization](https://en.wikipedia.org/wiki/Title_case),
     e.g. write `The Elements of Programming Style`, rather than
     `The elements of programming style`.
     This ensures that the title will appear correctly
@@ -483,9 +483,12 @@ Table row 2 \\
 
 ## Typography
 * Be consistent in the rules you follow.
-  Some style guides offer contradicting advice,
-  e.g. regarding the placement of footnotes before or after punctuation
-  or the spacing around the *em-dash*.
+  Some style guides offer contradicting advice.
+  Examples include:
+  * the placement of footnotes before or after punctuation,
+  * the use of [title case](https://en.wikipedia.org/wiki/Title_case)
+    or sentence case for capitalizing titles and section headings,
+  * the spacing around the *em-dash*.
   This isn't a license to randomly use both the one or the other
   alternative within the document.
   Adopt your publisher's style or consistently follow the same rule
