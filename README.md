@@ -15,7 +15,6 @@
 - [Figures](#figures)
 - [Floats](#floats)
 - [Typography](#typography)
-- [LaTeX formatting](#latex-formatting)
 - [Writing](#writing)
 - [LaTeX formatting](#latex-formatting)
 - [Enforce all of the above](#enforce-all-of-the-above)
