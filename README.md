@@ -16,7 +16,6 @@
 - [Floats](#floats)
 - [Typography](#typography)
 - [LaTeX formatting](#latex-formatting)
-- [Enforce all of the above](#enforce-all-of-the-above)
 - [Writing](#writing)
 - [See also](#see-also)
 - [License](#license)
