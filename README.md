@@ -37,19 +37,19 @@ Note that this list is not intended to provide advice on
 English writing style, scientific writing, or TeX programming.
 There are many other excellent guides for all these topics.
 
-Contributions via *GitHub* pull requests are always welcomed.
+Contributions via _GitHub_ pull requests are always welcomed.
 
 ## Put the document under version control
 * Create a repository for your document and add to it all the
   document's source code.
-  This can live on *GitHub* if you plan to work with others or want
+  This can live on _GitHub_ if you plan to work with others or want
   to keep a copy on another server, or it can be a local Git repository
   you create with `git init`.
 * Do not include in the repository generated files, such as
   the formatted PDF document,
   compiled bibliographies,
   or PDF charts generated from R or Python scripts.
-  Instead, add *Makefile* rules to automatically create these files
+  Instead, add _Makefile_ rules to automatically create these files
   at build time.
   Generated files needlessly increase the size of the repo,
   making it time-consuming to clone and fetch updates.
@@ -95,7 +95,7 @@ this was not a major issue in this study.
   offers you the following advantages.
   * It gives clean line differences of changes made between versions;
     a line change corresponds at most to a single phrase.
-    (You can obtain difference listings on *GitHub*, or via `git diff`.)
+    (You can obtain difference listings on _GitHub_, or via `git diff`.)
     Clean differences make it easier to see what has changed and to
     merge changes of others when working as a group.
   * It makes it easy to rearrange the order of sentences or the elements
@@ -143,7 +143,7 @@ This saves you from repeatedly executing multiple commands,
 makes it easier to work as a team, and
 avoids the accidental use of outdated files.
 You have the following options here.
-* You can use the Unix *make* command.
+* You can use the Unix _make_ command.
   It's available out of the box, but expressing the need for
   multiple passes over your document is difficult,
   so you may end up processing the document more often than needed.
@@ -156,7 +156,7 @@ You have the following options here.
   [BSD Owl](https://github.com/michipili/bsdowl) scripts,
   as documented
   [here](https://github.com/michipili/bsdowl/blob/master/doc/LaTeXDocument.md).
-  Both *latexmk* and *BSD Owl* will help you create clean and functional
+  Both _latexmk_ and _BSD Owl_ will help you create clean and functional
   build setups.
   Choose the one that is easier to install on your system and matches your
   taste.
@@ -331,7 +331,7 @@ Here are some popular LaTeX packages your may want to know about.
   This will allow you to easily adjust the formatting throughout the
   document.
   For example,
-  the following command sets a document's *finding* in boldface
+  the following command sets a document's _finding_ in boldface
 ```
 \newcommand{\finding}[1]{\textbf{#1}}
 ```
@@ -366,7 +366,7 @@ by the speed of light ($c$) squared.
   [LaTeX-supported operators](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Operators)
   then use that operator command, e.g. `\mod`, `\max`, or `\sin`.
   * If the characters indicate an unsupported operator,
-    declare it using the *amsmath* command `\DeclareMathOperator`,
+    declare it using the _amsmath_ command `\DeclareMathOperator`,
     e.g.  `\DeclareMathOperator{\sha}{sha}`.
   * If the characters indicate a multi-character variable name,
     set it in italics or roman using e.g. `\mathit{Delta}` or
@@ -471,7 +471,7 @@ Table row 2 \\
 
 ## Floats
 * Allow large displayed elements (figures, tables, listings) to have
-  a floating position by using a *figure* or *table* environment.
+  a floating position by using a _figure_ or _table_ environment.
 * Put floats in your document before your first reference to them.
 * Use `\centering` within a figure or table environment to center its
   contents.
@@ -488,20 +488,20 @@ Table row 2 \\
   * the placement of footnotes before or after punctuation,
   * the use of [title case](https://en.wikipedia.org/wiki/Title_case)
     or sentence case for capitalizing titles and section headings,
-  * the spacing around the *em-dash*.
+  * the spacing around the _em-dash_.
   This isn't a license to randomly use both the one or the other
   alternative within the document.
   Adopt your publisher's style or consistently follow the same rule
   throughout your document.
-* Use three dashes (`---`) to create the *em-dash*,
+* Use three dashes (`---`) to create the _em-dash_,
   which separates parenthetical phrases.
-  According to the *Chicago Manual of Style* (2.13),
+  According to the _Chicago Manual of Style_ (2.13),
   an em-dash has no space before or after it.
-  (Note that *The Associated Press Stylebook* specifies spacing.)
-* Use two dashes (`--`) to create an *en-dash*.
+  (Note that _The Associated Press Stylebook_ specifies spacing.)
+* Use two dashes (`--`) to create an _en-dash_.
   Use this to specify number ranges, e.g. `2009--2015`.
 * Use `\dots` to produce an ellipsis (`...`) punctuation symbol.
-* Put footnotes *after* punctuation symbols, unless your publisher's
+* Put footnotes _after_ punctuation symbols, unless your publisher's
   style specifies otherwise.
   For example, write `… is true.\footnote{See also …}`
 * Avoid underlined text.
