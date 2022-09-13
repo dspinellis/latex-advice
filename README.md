@@ -465,6 +465,8 @@ Table row 2 \\
   If you scale the figure by an arbitrary amount to match the document's
   column width, , you can load the resultant PDF in Inkscape and measure the
   font size there.
+* Given that floating figures are described by their caption, there is no
+  need to include a separate figure title.
 * Label the figure's axes.
 
 ## Floats
