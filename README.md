@@ -558,26 +558,29 @@ Table row 2 \\
 * When reporting numbers [round them to the appropriate number of significant
   digits and decimal places](https://dx.doi.org/10.1136/archdischild-2014-307149).
 * Avoid treating bibliographic references as nouns.
+  Rather than writing
   "According to [12] there are there are two escape mechanisms"
   write
   "According to reference [12] there are two escape mechanisms",
   or
-  "According to Smith [12] there are two cases", or
-  (parenthetically) "There are two escape mechanisms [12]".
+  "According to Smith [12] there are two escape mechanisms", or
+  (parenthetically) "There are two escape mechanisms [12]."
   Similarly, for author year reference styles, rather than writing
   "According to (Smith 2020) there are there are two escape mechanisms"
   write
   "According to Smith (2020) there are two escape mechanisms",
   or
   (parenthetically) "There are two escape mechanisms (Smith 2020)".
-  There are commands that will automatically provide the author name
+  Use LaTex commands to automatically provide the author name
   with suitable brackets.
-  These vary depending on the bibliography reference package you're using.
+  The commands vary depending on the bibliography reference package you're
+  using.
   For instance, under _natbib_ you can write
-  `\citet{Smi20}` to obtain "Smith [12]" or "Smith (2020)" or
-  `\citeauthor{Smi20}` to obtain "Smith".
+  `\citet{Smi20}` to obtain "Smith [12]" or "Smith (2020)"
+  (depending on the citation style),
+  or you can write `\citeauthor{Smi20}` to obtain "Smith".
 * Spell out numbers below 13, unless the number is used as a proper noun
-  (Section 2) or as part of an arithmetic construct (element a[6]).
+  (e.g. "Section 2") or as part of an arithmetic construct ("element a[6]").
 * Treat software system names as proper nouns.
   Just as you capitalize "Microsoft Windows", write
   "We used Git to store past versions.", "We employed a Python script …" or
