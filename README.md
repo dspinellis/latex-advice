@@ -16,6 +16,8 @@
 - [Floats](#floats)
 - [Typography](#typography)
 - [LaTeX formatting](#latex-formatting)
+- [Writing](#writing)
+- [LaTeX formatting](#latex-formatting)
 - [Enforce all of the above](#enforce-all-of-the-above)
 - [See also](#see-also)
 - [License](#license)
@@ -405,8 +407,6 @@ F_{n} =
   point.
   You can [easily](https://tex.stackexchange.com/a/2747/10140)
   do this by using the [siunitx](http://www.ctan.org/pkg/siunitx) package.
-* When reporting numbers [round them to the appropriate number of significant
-digits and decimal places](https://dx.doi.org/10.1136/archdischild-2014-307149).
 * Use hard tabs before each column's `&` separator to start each column's
   data on the same LaTeX source document column.
   See the following example.
@@ -532,6 +532,28 @@ Table row 2 \\
   (nicer, but with extra dependencies) package.
   Make sure your code does not go over the paragraph length;
   if it does, adjust line breaking and/or font size accordingly.
+
+## Writing
+* Read, learn, and apply Strunk and White's
+  [The Elements of Style](https://gutenberg.org/ebooks/37134).
+* Express each idea in a separate paragraph.
+* Begin each paragraph with a sentence summarising it, transitioning to it,
+  or providing its overall theme.
+* Write your paper's abstract as a [structured abstract](https://www.nlm.nih.gov/bsd/policy/structured_abstracts.html)
+  or as a similarly self-contained summary of the paper.
+  Never summarize the paper's table of contents.
+  ("In this paper we outline the problems associated with sinkholes,
+  describe the methods we used to explore them,
+  present the results of the experiments we performed,
+  and discuss the implications of our findings.")
+* Avoid the use of adjectives that express a subjective view.
+  (Our innovative method, remarkable results, outstanding accuracy,
+  lightning performance, swift execution time.)
+  Instead, present objective figures that speak for themselves.
+* When reporting numbers [round them to the appropriate number of significant
+  digits and decimal places](https://dx.doi.org/10.1136/archdischild-2014-307149).
+* Spell out numbers below 13, unless the number is used as a proper noun
+  (Section 2) or as part of an arithmetic construct (element a[6]).
 
 ## LaTeX formatting
 * Don't spend too much time on formatting your document.
