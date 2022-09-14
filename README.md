@@ -54,6 +54,10 @@ Contributions via _GitHub_ pull requests are always welcomed.
   They also pollute difference listings with immaterial changes.
 * Commit your changes to the repository in logical chunks using
   [meaningful commit messages](https://chris.beams.io/posts/git-commit/).
+* Don't combine heavy formatting changes (e.g. adopting a different
+  publisher's style) with semantic changes (e.g. changes following
+  suggestions by the second reviewer).
+  Instead, perform a separate commit for each set of changes.
 * When you remove text, delete it completely, rather than commenting
   it out.
   The version control system will keep track of it and your document
