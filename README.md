@@ -596,7 +596,7 @@ writing and for avoiding common mistakes.
   Instead, present objective figures that speak for themselves.
 * When reporting numbers [round them to the appropriate number of significant
   digits and decimal places](https://dx.doi.org/10.1136/archdischild-2014-307149).
-* Avoid treating bibliographic references as nouns.
+* Don;t treat bibliographic references as nouns.
   Rather than writing
   "According to [12] there are there are two escape mechanisms"
   write
