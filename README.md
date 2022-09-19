@@ -269,7 +269,7 @@ If you do, please share them.
   Through this scheme you can easily search for an existing entry in your
   bibliography files and saved articles, because you can quickly derive
   the key used.
-  Also this scheme will help you avoid duplicate entries, because they
+  Also this scheme will help you avoid duplicate entries, because the
   corresponding keys will clash.
 * If you save the PDF document associated with a bibliography entry in
   your files, name it using the entry's key, e.g. `LR89.pdf`.
@@ -368,7 +368,7 @@ by the speed of light ($c$) squared.
   [LaTeX-supported operators](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Operators)
   then use that operator command, e.g. `\mod`, `\max`, or `\sin`.
   * If the characters indicate an unsupported operator,
-    declare it using the _amsmath_ command `\DeclareMathOperator`,
+    declare it using the `amsmath` command `\DeclareMathOperator`,
     e.g.  `\DeclareMathOperator{\sha}{sha}`.
   * If the characters indicate a multi-character variable name,
     set it in italics or roman using e.g. `\mathit{Delta}` or
@@ -397,7 +397,7 @@ F_{n} =
   For example, use `tab:statResults` rather than  `table1`.
   Use the `tab:` prefix when labelling tables,
   the `fig:` prefix  when labelling figures, and
-  the `sec` prefix  when labelling sections.
+  the `sec:` prefix  when labelling sections.
 
 ## Tables
 * Avoid the use of rules (`\hline` and `|`) in tables.
@@ -465,7 +465,7 @@ Table row 2 \\
   If you scale the figure by an explicit amount (e.g. 1 or 0.5) you
   should use a font of the corresponding size (e.g. 11 points or 22 points).
   If you scale the figure by an arbitrary amount to match the document's
-  column width, , you can load the resultant PDF in Inkscape and measure the
+  column width, you can load the resultant PDF in Inkscape and measure the
   font size there.
 * Given that floating figures are described by their caption, there is no
   need to include a separate figure title.
@@ -548,17 +548,17 @@ Table row 2 \\
   Excessive formatting tweaks can be counterproductive:
   you waste time implementing them and
   your publisher may find it more difficult to use your document.
-* Use a tilde before `\cite` `\ref` etc. to avoid a line break immediately
+* Use a tilde before `\cite`, `\ref`, etc. to avoid a line break immediately
   before the reference.
   For example, write `Some also use logging statements~\cite{Spi06e}`.
 * Put a backslash after a non-sentence ending period to ensure this will
-  not be followed by the period-ending spacing.
+  not be followed by the sentence-ending spacing.
   For example, write `In 1962 Watson et al.\ famously found …`
 * Do not use math mode to achieve typographic effects in plain text.
   For example write  `RQ\textsubscript{2}` rather than `$RQ_2$`, if you
    must subscript the number of your research question 2.
   Similarly use `\textsuperscript` for plain superscripted text (e.g.
-  Wisper Quiet\texsuperscript{TM}).
+  `Wisper Quiet\textsuperscript{TM}`).
 * Match opening and closing quotes using one or two single-opening
   (`‘` or `‘‘`) and single-closing (`’` or `’’`) quote characters.
   Do not use the keyboard's double quote symbol (`"`).
@@ -606,7 +606,7 @@ writing and for avoiding common mistakes.
   Instead, present objective figures that speak for themselves.
 * When reporting numbers [round them to the appropriate number of significant
   digits and decimal places](https://dx.doi.org/10.1136/archdischild-2014-307149).
-* Don;t treat bibliographic references as nouns.
+* Don't treat bibliographic references as nouns.
   Rather than writing
   "According to [12] there are there are two escape mechanisms"
   write
@@ -620,7 +620,7 @@ writing and for avoiding common mistakes.
   "According to Smith (2020) there are two escape mechanisms",
   or
   (parenthetically) "There are two escape mechanisms (Smith 2020)".
-  Use LaTex commands to automatically provide the author name
+  Use LaTeX commands to automatically provide the author name
   with suitable brackets.
   The commands vary depending on the bibliography reference package you're
   using.
