@@ -205,7 +205,10 @@ If you do, please share them.
   [Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)) you can then
   automatically create the document's list of references in the style
   prescribed by the publisher.
-*  Use `\cite` commands to reference specific bibliographic entries.
+* Use `\cite` commands to reference specific bibliographic entries.
+* Include multiple references in the same `\cite` command
+  (e.g. `\cite{Doh19,Spi22}`) rather than employing multiple `\cite` commands
+  (`\cite{Doh19} \cite{Spi22}`).
 * If you need to reference a specific page or chapter, include this information
   in square brackets before the key.
   For example, write: `… educational use~\cite[p.~8]{LR89}.`
