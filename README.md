@@ -373,6 +373,8 @@ by the speed of light ($c$) squared.
   * If the characters indicate a multi-character variable name,
     set it in italics or roman using e.g. `\mathit{Delta}` or
     `\mathrm{Delta}`.
+  * Set non-index or descriptive subscripts in roman rather than italic.
+    Example: `x_{\mathrm{max}}`
 * Indent elements and break lines in order to express
   the logical structure of the formula you are writing.
   For example, write:
