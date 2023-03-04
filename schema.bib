@@ -21,7 +21,7 @@
 	Editor="First Last or Last, First.  Multiple are separated by and",
 	HowPublished="If it was published in a strange way",
 	Institution="Institution that published it",
-	Journal="Journal name.  Abreviations may exist ($TEXINPUTS/*.bst)",
+	Journal="Journal name.  Abreviations may exist in TEXINPUTS/*.bst",
 	Key="Used for alphabetizing and creating a label when no author",
 	Month="Month of publication, usual abbreviations",
 	Note="Additional information to help the reader",
@@ -36,11 +36,13 @@
 	Title="The work's title.",
 	Type="Type of a technical report e.g. Research Note",
 	Volume="The volume of a journal or multivolume book.",
+	Date="Date is yyyy-mm-dd format. Supported by BibLaTeX",
+	Eid="Electronic identifier, e.g. article number. Supported by JabRef.",
 	Year="The year of publication.  Numerals only."
 }
 
 % Templates for each type.
-@Article{
+@Article{Key,
 	Title="Required",
 	URL="Optional",
 	DOI="Optional",
@@ -50,12 +52,14 @@
 	Number="Optional",
 	Pages="Optional",
 	Month="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Required",
 	URL="Optional",
 	Note="Optional"
 }
 
-@Book{
+@Book{Key,
 	Title="Required",
 	URL="Optional",
 	Edition="Optional",
@@ -66,12 +70,14 @@
 	Publisher="Required",
 	Address="Optional",
 	Month="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Required",
 	Note="Optional",
 	ISBN="Optional"
 }
 
-@Booklet{
+@Booklet{Key,
 	Address="Optional",
 	Author="Optional",
 	HowPublished="Optional",
@@ -80,10 +86,12 @@
 	Note="Optional",
 	Title="Required",
 	URL="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Optional"
 }
 
-@InBook{
+@InBook{Key,
 	Address="Optional",
 	Author="Required or Editor",
 	Chapter="Required or Pages",
@@ -97,10 +105,12 @@
 	Title="Required",
 	URL="Optional",
 	Volume="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Required"
 }
 
-@InCollection{
+@InCollection{Key,
 	Author="Required",
 	Title="Required",
 	URL="Optional",
@@ -112,11 +122,13 @@
 	Publisher="Required",
 	Address="Optional",
 	Month="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Required",
 	Note="Optional"
 }
 
-@InProceedings{
+@InProceedings{Key,
 	Title="Required",
 	URL="Optional",
 	DOI="Optional",
@@ -124,6 +136,8 @@
 	Booktitle="Required",
 	Location="Optional",
 	Month="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Required",
 	Organization="Optional",
 	Pages="Optional",
@@ -134,7 +148,7 @@
 	URL="Optional"
 }
 
-@Manual{
+@Manual{Key,
 	Address="Optional",
 	Annote="Annotation",
 	Author="Optional",
@@ -145,10 +159,12 @@
 	Organization="Optional",
 	Title="Required",
 	URL="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Optional"
 }
 
-@MastersThesis{
+@MastersThesis{Key,
 	Address="Optional",
 	Author="Required",
 	Month="Optional",
@@ -156,10 +172,12 @@
 	School="Required",
 	Title="Required",
 	URL="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Required"
 }
 
-@Misc{
+@Misc{Key,
 	Author="Optional",
 	HowPublished="Optional",
 	Key="Optional (needed if no Author)",
@@ -167,10 +185,12 @@
 	Note="Optional",
 	Title="Optional",
 	URL="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Optional"
 }
 
-@PhDThesis{
+@PhDThesis{Key,
 	Address="Optional",
 	Author="Required",
 	Month="Optional",
@@ -178,10 +198,12 @@
 	School="Required",
 	Title="Required",
 	URL="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Required"
 }
 
-@Proceedings{
+@Proceedings{Key,
 	Title="Required",
 	URL="Optional",
 	DOI="Optional",
@@ -191,10 +213,12 @@
 	Location="Optional",
 	Publisher="Optional",
 	Month="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Required"
 }
 
-@TechReport{
+@TechReport{Key,
 	Author="Required",
 	Title="Required",
 	URL="Optional",
@@ -203,16 +227,20 @@
 	Type="Optional",
 	Number="Optional",
 	Month="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Required",
 	Institution="Required",
 	Address="Optional"
 }
 
-@Unpublished{
+@Unpublished{Key,
 	Author="Required",
 	Month="Optional",
 	Note="Required",
 	Title="Required",
 	URL="Optional",
+	Date="Optional",
+	Eid="Optional",
 	Year="Optional"
 }
