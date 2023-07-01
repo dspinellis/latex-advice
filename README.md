@@ -475,6 +475,7 @@ Table row 2 \\
 * Given that floating figures are described by their caption, there is no
   need to include a separate figure title.
 * Label the figure's axes.
+* [Avoid the use of pie charts](https://scc.ms.unimelb.edu.au/resources/data-visualisation-and-exploration/no_pie-charts)
 
 ## Floats
 * Allow large displayed elements (figures, tables, listings) to have
@@ -655,6 +656,7 @@ writing and for avoiding common mistakes.
 * StackExchange Academia. [Does submitting a paper in Latex format enhance the chances of acceptance?](https://academia.stackexchange.com/questions/82641/does-submitting-a-paper-in-latex-format-enhance-the-chances-of-acceptance)
 *  Knauff M, Nejasmic J (2014) An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development. PLoS ONE 9(12): e115069. https://doi.org/10.1371/journal.pone.0115069
 * Lorna Mitchell (2022) [Write documentation like you develop code](https://opensource.com/article/22/10/docs-as-code)
+* University of Melbourne [Five principles of good graphs](https://scc.ms.unimelb.edu.au/resources/data-visualisation-and-exploration/data-visualisation)
 
 ## License
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
