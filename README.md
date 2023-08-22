@@ -517,6 +517,10 @@ Table row 2 \\
   For example, write `… is true.\footnote{See also …}`
 * Separate numbers and the units these represent with a space: 12 kB, 3.6 GHz.
   No space is required for percentages and degrees: 90%, 45°.
+  (Note that the SI standard, in contrast to the _Chicago Manual of Style_,
+  specifies that a space should precede
+  [°C](https://doi.org/10.6028/NIST.SP.330-2019#page=48) and
+  [%](https://doi.org/10.6028/NIST.SP.330-2019#page=50).)
 * Avoid underlined text.
   Underlining is used for emphasis in handwritten text and was also
   carried over in this capacity in typewritten documents.
