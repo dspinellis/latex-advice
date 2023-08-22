@@ -515,7 +515,7 @@ Table row 2 \\
 * Put footnotes _after_ punctuation symbols, unless your publisher's
   style specifies otherwise.
   For example, write `… is true.\footnote{See also …}`
-* Separate numbers and the units these represent with a space: 12 kB, 3.6 GHz.
+* Separate numbers and the units these represent with a (non-breaking) space: `12~kB`, `3.6~GHz`.
   No space is required for percentages and degrees: 90%, 45°.
   (Note that the SI standard, in contrast to the _Chicago Manual of Style_,
   specifies that a space should precede
