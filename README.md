@@ -515,6 +515,8 @@ Table row 2 \\
 * Put footnotes _after_ punctuation symbols, unless your publisher's
   style specifies otherwise.
   For example, write `… is true.\footnote{See also …}`
+* Separate numbers and the units these represent with a space: 12 kB, 3.6 GHz.
+  No space is required for percentages and degrees: 90%, 45°.
 * Avoid underlined text.
   Underlining is used for emphasis in handwritten text and was also
   carried over in this capacity in typewritten documents.
