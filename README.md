@@ -321,6 +321,7 @@ Here are some popular LaTeX packages your may want to know about.
 * [setspace](https://www.ctan.org/pkg/setspace): Set space between lines
 * [siunitx](http://www.ctan.org/pkg/siunitx): A comprehensive (SI) units package
 * [url](https://www.ctan.org/pkg/url): Verbatim with URL-sensitive line breaks
+* [widows-and-orphans](https://ctan.org/pkg/widows-and-orphans): Warns of typographic widows and orphans
 * [xcolor](https://www.ctan.org/pkg/xcolor): Driver-independent color extensions
 * [xspace](https://www.ctan.org/pkg/xspace): Define commands that appear not to eat spaces
 * [cleveref](https://www.ctan.org/pkg/cleveref): Intelligent cross-referencing
