@@ -135,8 +135,14 @@ this was not a major issue in this study.
 
   When the document is split, these tasks require you to switch from one
   file to another or to use external tools.
-  Feel free to split longer documents (such as a book or a thesis) in order
-  to shorten a project's long build and loading time.
+* Split long documents (such as a book or a thesis) into multiple files,
+  e.g. one for each chapter,
+  in order to shorten the project's long build and loading time.
+  Use the `\include` command to include each chapter in the main document
+  and the `\includeonly` command to specify which parts shall appear
+  in the subset you are working on.
+  For guidance,
+  see [this example](http://latexref.xyz/Larger-book-template.html).
 
 ## Automate the document build
 Ensure that the document can be built with a single command,
