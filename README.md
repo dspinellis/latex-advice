@@ -10,6 +10,7 @@
 - [Use third-party LaTeX packages](#use-third-party-latex-packages)
 - [Avoid explicit formatting](#avoid-explicit-formatting)
 - [Mathematics](#mathematics)
+- [Number and unit formatting](#number-and-unit-formatting)
 - [Use symbolic references](#use-symbolic-references)
 - [Tables](#tables)
 - [Figures](#figures)
