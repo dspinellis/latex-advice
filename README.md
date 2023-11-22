@@ -354,8 +354,8 @@ Here are some popular LaTeX packages your may want to know about.
 ```
 
 ## Mathematics
-* Set all math, including formulas, stand-alone math symbols,
-  and negative numbers in LaTeX's math mode.
+* Set all math, including formulas and stand-alone math symbols,
+  in LaTeX's math mode.
   See the following example, which includes a little-known formula
   and in-text references to its elements.
 ```
@@ -397,6 +397,20 @@ F_{n} =
 * If you write a lot of math in LaTeX, acquaint yourself and follow
   A.J. Hildebrand's
 [Top Ten List](http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
+
+## Number and unit formatting
+* As mandated by the ](https://physics.nist.gov/cuu/pdf/sp811.pdf#page=28),
+  put a thin non-breaking space before a number and the unit it represents.
+  Also, format long numbers with a thin-space decimal separator, and use
+  a negative sign, rather than a hyphen to designate negative numbers.
+  You can do all these tasks easily with the
+  [siunitx](http://www.ctan.org/pkg/siunitx) package. Example:
+```
+It took \qty{7146}{s} to load a \qty{134}{\gibi\byte} file over a
+\qty{200}{\mebi\bit} connection over a distance of \qty{9500}{\km}.
+During the transfer \num{12345} packets were dropped.
+The ambient temperature was \qty{-35}{\degreeCelsius}.
+```
 
 ## Use symbolic references
 *  Mark sections, tables, figures, and equations using the `\label` command,
