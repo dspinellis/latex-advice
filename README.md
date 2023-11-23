@@ -397,7 +397,7 @@ F_{n} =
   Keep the operators as the first character on a line.
 * If you write a lot of math in LaTeX, acquaint yourself and follow
   A.J. Hildebrand's
-[Top Ten List](http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
+[Top Ten List](https://web.archive.org/web/20170817055844/http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
 
 ## Number and unit formatting
 * As mandated by the ](https://physics.nist.gov/cuu/pdf/sp811.pdf#page=28),
