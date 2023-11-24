@@ -322,7 +322,7 @@ Here are some popular LaTeX packages your may want to know about.
 * [glossaries](https://ctan.org/pkg/glossaries): Define and typeset acronyms and glossaries
 * [hyperref](https://www.ctan.org/pkg/hyperref): Extensive support for hypertext
 * [listings](https://www.ctan.org/pkg/listings): Typeset source code listings
-* [minted](https://www.ctan.org/pkg/minted): Typeset source code listings with highligthing
+* [minted](https://www.ctan.org/pkg/minted): Typeset source code listings with highlighting
 * [natbib](https://www.ctan.org/pkg/natbib): Flexible bibliography support
 * [PGF/TikZ](https://www.ctan.org/pkg/pgf): Create PostScript and PDF graphics
 * [setspace](https://www.ctan.org/pkg/setspace): Set space between lines
