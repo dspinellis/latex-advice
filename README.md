@@ -631,7 +631,8 @@ writing and for avoiding common mistakes.
 * Don't present related work as a laundry list.
   (X did A [12].  Y developed B [45]. Z wrote C [37].)
   Instead, _analyze_ what has been done to identify commonalities,
-  differences, or other noteworthy features of how scientific knowledge
+  differences, evolution,
+  or other noteworthy features of how scientific knowledge
   is built up in the area you're examining.
   Then present a _synthesis_ of the work along the axes you identified.
 * Avoid the use of adjectives that express a subjective view of your work.
