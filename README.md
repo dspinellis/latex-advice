@@ -400,7 +400,7 @@ F_{n} =
 [Top Ten List](https://web.archive.org/web/20170817055844/http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
 
 ## Number and unit formatting
-* As mandated by the ](https://physics.nist.gov/cuu/pdf/sp811.pdf#page=28),
+* As mandated by the [NIST Guide for the Use of the International System of Units (SI)](https://physics.nist.gov/cuu/pdf/sp811.pdf#page=28),
   put a thin non-breaking space before a number and the unit it represents.
   Also, format long numbers with a thin-space decimal separator, and use
   a negative sign, rather than a hyphen to designate negative numbers.
