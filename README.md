@@ -401,7 +401,7 @@ F_{n} =
 
 ## Number and unit formatting
 * As mandated by the [NIST Guide for the Use of the International System of Units (SI)](https://physics.nist.gov/cuu/pdf/sp811.pdf#page=28),
-  put a thin non-breaking space before a number and the unit it represents.
+  put a thin non-breaking space between a number and the unit it represents.
   Also, format long numbers with a thin-space decimal separator, and use
   a negative sign, rather than a hyphen to designate negative numbers.
   You can do all these tasks easily with the
