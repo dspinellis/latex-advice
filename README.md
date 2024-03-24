@@ -255,7 +255,15 @@ If you do, please share them.
     `{ICSE} '08: Proceedings of the 30th International Conference on Software Engineering`.
     It would be a mistake to use a different format, e.g.
     `12th Working Conference on Mining Software Repositories (MSR 2015), Proceedings of` in another entry.
-  * Don't include a URL for entries that have a DOI.
+  * Don't include a URL for entries that have a DOI, because the DOI
+    is more authoritative than the URL, which may
+    [decay over time](https://doi.org/10.1145/602421.602422).
+  * In entries that have a DOI, don't store the resolution prefix.
+    That is, set the DOI entry to something like
+    `doi = {10.1371/journal.pone.0294946}`, rather than
+    `doi = {https://doi.org/10.1371/journal.pone.0294946}`.
+    The prefix can be easily added when needed, and many bibliography formats
+    add it in the hyperlink without wasting space to show it.
   * Specify an em-dash or en-dash where required, e.g.
     `The Entity-Relationship Model---Toward a Unified View of Data` or
     `The Evolution of {C} Programming Practices: A Study of the {U}nix Operating System 1973--2015`.
