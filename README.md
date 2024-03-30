@@ -371,9 +371,9 @@ Here are some popular LaTeX packages your may want to know about.
 \[
 E = mc^2
 \]
-This formula states that the equivalent energy ($E$)
-can be calculated as the mass ($m$) multiplied
-by the speed of light ($c$) squared.
+This formula states that the equivalent energy (\(E\))
+can be calculated as the mass (\(m\)) multiplied
+by the speed of light (\(c\)) squared.
 ```
 * Use balanced `\left` and `\right` commands to markup (balanced)
   bracketing elements.
@@ -395,14 +395,17 @@ by the speed of light ($c$) squared.
   * Set non-index or descriptive subscripts in roman rather than italic.
     Example: `x_{\mathrm{max}}`
 * Indent elements and break lines in order to express
-  the logical structure of the formula you are writing.
+  the logical structure of the formula you are writing,
+  keeping the operators as the first character on a line.
   For example, write:
 ```
 F_{n} =
   \cfrac{1}{\sqrt{5}} \left(\cfrac{1 + \sqrt{5}}{2}\right)^n
   - \cfrac{1}{\sqrt{5}} \left(\cfrac{1 - \sqrt{5}}{2}\right)^n
 ```
-  Keep the operators as the first character on a line.
+
+* For inline math, prefer the use of the LaTeX `\(` _math_ `\)` delimiters
+  to TeX's `$` _math_ `$` style.
 * If you write a lot of math in LaTeX, acquaint yourself and follow
   A.J. Hildebrand's
 [Top Ten List](https://web.archive.org/web/20170817055844/http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
@@ -597,7 +600,7 @@ Table row 2 \\
   not be followed by the sentence-ending spacing.
   For example, write `In 1962 Watson et al.\ famously found …`
 * Do not use math mode to achieve typographic effects in plain text.
-  For example write  `RQ\textsubscript{2}` rather than `$RQ_2$`, if you
+  For example write  `RQ\textsubscript{2}` rather than `\(RQ_2\)`, if you
    must subscript the number of your research question 2.
   Similarly use `\textsuperscript` for plain superscripted text (e.g.
   `Wisper Quiet\textsuperscript{TM}`).
