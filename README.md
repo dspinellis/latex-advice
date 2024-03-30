@@ -36,7 +36,7 @@ Note that this list is not intended to provide advice on
 English writing style, scientific writing, or TeX programming.
 There are many other excellent guides for all these topics.
 
-Contributions via _GitHub_ pull requests are always welcomed.
+Contributions to this guide via _GitHub_ pull requests are always welcomed.
 
 ## Put the document under version control
 * Create a repository for your document and add to it all the
