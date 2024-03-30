@@ -4,7 +4,7 @@
 - [Put the document under version control](#put-the-document-under-version-control)
 - [Write readable and maintainable LaTeX source code](#write-readable-and-maintainable-latex-source-code)
 - [Automate the document's build](#automate-the-document-build)
-- [Use Continuous Integration](#use-continuous-integration)
+- [Use continuous integration](#use-continuous-integration)
 - [Automate the management of bibliographic references](#automate-the-management-of-bibliographic-references)
 - [Use style files](#use-style-files)
 - [Use third-party LaTeX packages](#use-third-party-latex-packages)
@@ -178,7 +178,7 @@ You have the following options here.
   You may find a short overview of supported commands/packages
   [here](https://github.com/SCons/scons/wiki/LatexSupport).
 
-## Use Continuous Integration
+## Use continuous integration
 
 Once you have automated your build, you are ready for the next step:
 continuous integration (CI) for LaTeX documents.
