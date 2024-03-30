@@ -9,9 +9,9 @@
 - [Use style files](#use-style-files)
 - [Use third-party LaTeX packages](#use-third-party-latex-packages)
 - [Avoid explicit formatting](#avoid-explicit-formatting)
+- [Use symbolic references](#use-symbolic-references)
 - [Mathematics](#mathematics)
 - [Number and unit formatting](#number-and-unit-formatting)
-- [Use symbolic references](#use-symbolic-references)
 - [Tables](#tables)
 - [Figures](#figures)
 - [Floats](#floats)
@@ -362,6 +362,19 @@ Here are some popular LaTeX packages your may want to know about.
 \newenvironment{license}{\verbatim\scriptsize}{\normalsize\endverbatim}
 ```
 
+## Use symbolic references
+*  Mark sections, tables, figures, and equations using the `\label` command,
+   and reference them using the [cleveref](https://www.ctan.org/pkg/cleveref)
+ `\Cref` command.
+* Avoid referencing floating environments by name
+  (e.g. `see Figure~\ref{fig:foo}`);`\Cref` can create that for you:
+  `see~\Cref{fig:foo}`.
+* Use self-descriptive label names.
+  For example, use `tab:statResults` rather than  `table1`.
+  Use the `tab:` prefix when labelling tables,
+  the `fig:` prefix  when labelling figures, and
+  the `sec:` prefix  when labelling sections.
+
 ## Mathematics
 * Set all math, including formulas and stand-alone math symbols,
   in LaTeX's math mode.
@@ -423,19 +436,6 @@ It took \qty{7146}{s} to load a \qty{134}{\gibi\byte} file over a
 During the transfer \num{12345} packets were dropped.
 The ambient temperature was \qty{-35}{\degreeCelsius}.
 ```
-
-## Use symbolic references
-*  Mark sections, tables, figures, and equations using the `\label` command,
-   and reference them using the [cleveref](https://www.ctan.org/pkg/cleveref)
- `\Cref` command.
-* Avoid referencing floating environments by name
-  (e.g. `see Figure~\ref{fig:foo}`);`\Cref` can create that for you:
-  `see~\Cref{fig:foo}`.
-* Use self-descriptive label names.
-  For example, use `tab:statResults` rather than  `table1`.
-  Use the `tab:` prefix when labelling tables,
-  the `fig:` prefix  when labelling figures, and
-  the `sec:` prefix  when labelling sections.
 
 ## Tables
 * Avoid the use of rules (`\hline` and `|`) in tables.
