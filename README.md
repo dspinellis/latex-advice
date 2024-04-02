@@ -513,6 +513,7 @@ Table row 2 \\
 ## Floats
 * Allow large displayed elements (figures, tables, listings) to have
   a floating position by using a _figure_ or _table_ environment.
+* Reference in the text all floats appearing in the document.
 * Put floats in your document before your first reference to them.
 * Use `\centering` within a figure or table environment to center its
   contents.
@@ -683,7 +684,12 @@ writing and for avoiding common mistakes.
   Use lowercase (and a code-like font) only when you refer to the actual
   command-line invocation sequences:
   "By running `git log HEAD` we were able to inspect the most recent changes."
-
+* Don't start a lower-level structure, such as a section within a chapter or
+  a subsection within a section, immediately after the parent's title.
+  Instead begin the lower-level element with introductory text, such as
+  an overview of what you will present.
+* Avoid creating a single subsection within a section.
+* Balance the size of your work's divisions (chapters, sections, subsections).
 
 ## See also
 * A.J. Hildebrand. [LaTeX Tips: Basic tips](http://www.math.uiuc.edu/~ajh/tex/basics.html)
