@@ -684,6 +684,10 @@ writing and for avoiding common mistakes.
   Use lowercase (and a code-like font) only when you refer to the actual
   command-line invocation sequences:
   "By running `git log HEAD` we were able to inspect the most recent changes."
+* Do not capitalize the words that introduce an abbreviation, unless these
+  are proper nouns.
+  Thus write "we used a large language model (LLM)", but
+  "as recommended by the American Psychological Association (APA)".
 * Don't start a lower-level structure, such as a section within a chapter or
   a subsection within a section, immediately after the parent's title.
   Instead begin the lower-level element with introductory text, such as
