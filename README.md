@@ -529,6 +529,7 @@ Table row 2 \\
   * the use of [title case](https://en.wikipedia.org/wiki/Title_case)
     or sentence case for capitalizing titles and section headings,
   * the spacing around the _em-dash_.
+
   This isn't a license to randomly use both the one or the other
   alternative within the document.
   Adopt your publisher's style or consistently follow the same rule
