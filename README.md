@@ -189,19 +189,14 @@ sometimes hard to debug later.
 Moreover, CI creates a defined way to build your project,
 on which every collaborator can rely on.
 
-Thanks to [travis-ci-latex-pdf](https://github.com/harshjv/travis-ci-latex-pdf),
-there is a ready-made solution for [Travis CI](http://travis-ci.org/)
-that you just need to copy into your project to get started.
+You can automate this process using the
+[github-action-for-latex](https://github.com/marketplace/actions/github-action-for-latex) GitHub Action, or the
+[travis-ci-latex-pdf](https://github.com/harshjv/travis-ci-latex-pdf)
+solution for [Travis CI](http://travis-ci.org/).
 
-Another alternative involves integrating the
-[ChkTeX](http://www.nongnu.org/chktex/) linter into the build process.
-This checks documents for certain LaTeX anti-patterns, such as the use of
-`...` instead of the typographically correct `\dots` or other such violations.
-Users can define their own rules, too, for example to enforce consistency
-in the spelling of certain phrases.
-Now it is up to you to create ChkTeX rules to enforce the guidelines in this
-document.
-If you do, please share them.
+While at it, consider integrating
+[the running of linters](#latex-formatting) into the build process.
+
 
 ## Automate the management of bibliographic references
 * Create one or more centrally-managed bibliography files for your
@@ -614,6 +609,18 @@ Table row 2 \\
 * Use the new local font style commands
   (e.g. `\texttt{}`, `\textsc{}`, or `\textbf{}`)
   rather than the old switches (e.g. `{\tt }`, `{\sc }`, `{\bf }`)
+* Run one or more of the LaTeX linters [LaCheck](https://ctan.org/pkg/lacheck)
+  (with the `lacheck` command) and
+  [ChkTeX](https://www.nongnu.org/chktex/) (with the `chktex` command)
+  on your document to find and fix typesetting errors.
+  These check documents for certain LaTeX anti-patterns, such as the use of
+  `...` instead of the typographically correct `\dots` or other such violations.
+  Users can define their own rules, too, for example to enforce consistency
+  in the spelling of certain phrases.
+  Now it is up to you to create ChkTeX rules to enforce the guidelines in this
+  document.
+  If you do, please share them.
+
 * To obtain a PDF document with the widely available Times/Helvetica/Courier
   font set, rather than the LaTeX, less widely used, Computer Modern fonts,
   use the following packages.
