@@ -414,6 +414,18 @@ F_{n} =
 
 * For inline math, prefer the use of the LaTeX `\(` _math_ `\)` delimiters
   to TeX's `$` _math_ `$` style.
+* Ensure equations are correctly punctuated according to the sentence
+  they belong to.
+  Put a period at their end if the end a sentence, or a comma if they
+  are given perenthetically.
+  Space the trailing period or comma by prefixing it with a `\,`.
+  Example:
+```
+The atomic age started with the establishment of the mass–energy equivalence,
+\[
+E = mc^2 \,.
+\]
+```
 * If you write a lot of math in LaTeX, acquaint yourself and follow
   A.J. Hildebrand's
 [Top Ten List](https://web.archive.org/web/20170817055844/http://www.math.illinois.edu/~ajh/tex/tips-topten.html).
