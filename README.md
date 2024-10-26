@@ -515,7 +515,7 @@ Table row 2 \\
 * Given that floating figures are described by their caption, there is no
   need to include a separate figure title.
 * Label the figure's axes.
-* [Avoid the use of pie charts](https://scc.ms.unimelb.edu.au/resources/data-visualisation-and-exploration/no_pie-charts)
+* Avoid [common chart errors](https://github.com/cxli233/FriendsDontLetFriends).
 
 ## Floats
 * Allow large displayed elements (figures, tables, listings) to have
