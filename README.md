@@ -668,7 +668,7 @@ writing and for avoiding common mistakes.
   is built up in the area you're examining.
   Then present a _synthesis_ of the work along the axes you identified.
   You can find examples of the laundry-list appraoch and the recommended
-  one [here](https://www.spinellis.gr/blog/20240805/].
+  one [here](https://www.spinellis.gr/blog/20240805/).
 * Avoid the use of adjectives that express a subjective view of your work.
   (Our innovative method, remarkable results, outstanding accuracy,
   lightning performance, swift execution time.)
