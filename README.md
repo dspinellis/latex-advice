@@ -320,6 +320,7 @@ Here are some popular LaTeX packages your may want to know about.
 * [amsthm](https://www.ctan.org/pkg/amsthm): Typesetting theorems (AMS style)
 * [booktabs](https://www.ctan.org/pkg/booktabs): Publication quality tables
 * [cite](https://www.ctan.org/pkg/cite): Improved citation handling
+* [enumitem ](https://ctan.org/pkg/enumitem): Control layout of itemize, enumerate, description
 * [fancyhdr](https://www.ctan.org/pkg/fancyhdr): Extensive control of page headers and footers
 * [geometry](https://www.ctan.org/pkg/geometry): Flexible and complete interface to document dimensions
 * [glossaries](https://ctan.org/pkg/glossaries): Define and typeset acronyms and glossaries
@@ -330,6 +331,7 @@ Here are some popular LaTeX packages your may want to know about.
 * [PGF/TikZ](https://www.ctan.org/pkg/pgf): Create PostScript and PDF graphics
 * [setspace](https://www.ctan.org/pkg/setspace): Set space between lines
 * [siunitx](http://www.ctan.org/pkg/siunitx): A comprehensive (SI) units package
+* [titlesec](https://ctan.org/pkg/titlesec): Select alternative section titles
 * [url](https://www.ctan.org/pkg/url): Verbatim with URL-sensitive line breaks
 * [widows-and-orphans](https://ctan.org/pkg/widows-and-orphans): Warns of typographic widows and orphans
 * [xcolor](https://www.ctan.org/pkg/xcolor): Driver-independent color extensions
