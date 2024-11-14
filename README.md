@@ -18,7 +18,8 @@
 - [Typography](#typography)
 - [LaTeX formatting](#latex-formatting)
 - [Writing](#writing)
-- [See also](#see-also)
+- [Additional material regarding LaTeX](#additional-material-regarding-latex)
+- [Material on writing and presenting information](#material-on-writing-and-presenting-information)
 - [License](#license)
 
 
@@ -719,20 +720,24 @@ writing and for avoiding common mistakes.
 * Avoid creating a single subsection within a section.
 * Balance the size of your work's divisions (chapters, sections, subsections).
 
-## See also
+## Additional material regarding LaTeX
 * A.J. Hildebrand. [LaTeX Tips: Basic tips](http://www.math.uiuc.edu/~ajh/tex/basics.html)
 * Wikibooks. [LaTeX/Tips and Tricks](https://en.wikibooks.org/wiki/LaTeX/Tips_and_Tricks)
 * John Regehr. [John's Small Collection of LaTeX Tips](https://john.regehr.org/latex/)
 * Mark Trettin (author of German version) and Jürgen Fenn (English translation).
   [An essential guide to LaTeX2ε usage: Obsolete commands and packages](https://ctan.org/tex-archive/info/l2tabu/english/)
 * Martin J. Osborne [Some common (la)tex errors](https://www.economics.utoronto.ca/osborne/latex/LTXERR.HTM)
-* Diomidis Spinellis. [The Elements of Computing Style](https://www.spinellis.gr/computingstyle)
-* [List of style guides](https://en.wikipedia.org/wiki/List_of_style_guides)
-  on Wikipedia
 * StackExchange Academia. [Does submitting a paper in Latex format enhance the chances of acceptance?](https://academia.stackexchange.com/questions/82641/does-submitting-a-paper-in-latex-format-enhance-the-chances-of-acceptance)
 *  Knauff M, Nejasmic J (2014) An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development. PLoS ONE 9(12): e115069. https://doi.org/10.1371/journal.pone.0115069
+
+## Material on writing and presenting information
+* [List of style guides](https://en.wikipedia.org/wiki/List_of_style_guides)
+  on Wikipedia.
+* George Gopen, Judith Swan (1990) [The Science of Scientific Writing](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing). _Americal Scientist_, November–December.
 * Lorna Mitchell (2022) [Write documentation like you develop code](https://opensource.com/article/22/10/docs-as-code)
 * University of Melbourne [Five principles of good graphs](https://scc.ms.unimelb.edu.au/resources/data-visualisation-and-exploration/data-visualisation)
+* George Orwell (1946). [Politics and the English Language](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/). Horizon.
+* Diomidis Spinellis. [The Elements of Computing Style](https://www.spinellis.gr/computingstyle)
 
 ## License
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
