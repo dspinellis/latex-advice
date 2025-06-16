@@ -670,7 +670,7 @@ writing and for avoiding common mistakes.
   or other noteworthy features of how scientific knowledge
   is built up in the area you're examining.
   Then present a _synthesis_ of the work along the axes you identified.
-  You can find examples of the laundry-list appraoch and the recommended
+  You can find examples of the laundry-list approach and the recommended
   one [here](https://www.spinellis.gr/blog/20240805/).
 * Avoid the use of adjectives that express a subjective view of your work.
   (Our innovative method, remarkable results, outstanding accuracy,
