@@ -419,8 +419,8 @@ F_{n} =
   to TeX's `$` _math_ `$` style.
 * Ensure equations are correctly punctuated according to the sentence
   they belong to.
-  Put a period at their end if the end a sentence, or a comma if they
-  are given perenthetically.
+  Put a period at their end if they end a sentence, or a comma if they
+  are given parenthetically.
   Space the trailing period or comma by prefixing it with a `\,`.
   Example:
 ```
