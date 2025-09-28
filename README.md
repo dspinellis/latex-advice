@@ -76,7 +76,8 @@ Contributions to this guide via _GitHub_ pull requests are always welcomed.
   You aim is to keep the source code readable and maintainable.
 * Avoid long lines, splitting text somewhere between column 60 and 70.
   (You can configure your editor to do this for you).
-* Start each phrase on a separate line, and further split a phrase
+* Employ [semantic line breaks](https://sembr.org/):
+  start each phrase on a separate line, and further split a phrase
   according to its logical structure.
   Here is an example.
 ```
