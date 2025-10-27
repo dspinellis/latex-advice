@@ -557,16 +557,24 @@ Table row 2 \\
   (Note that _The Associated Press Stylebook_ specifies spacing.)
 * Use two dashes (`--`) to create an _en-dash_.
   Use this to specify number ranges, e.g. `2009--2015`.
+* Separate numbers and the units these represent with a (non-breaking) space:
+  `12~kB`, `3.6~GHz`.
+  No space is required for percentages and degrees: 90%, 45°.
+  Employ a thin space (`\,`) as a thousands separator, e.g. `123\,456`.
+  Better yet, format your numbers with the
+  [siunitx](http://www.ctan.org/pkg/siunitx) package:
+  `\SI{90}{\percent}`, `\SI{45}{\degreeCelsius}`, `\SI{16}{\gibi\byte}`,
+  `\SIlist{5; 10; 15}{\milli\metre}`, `\SI{9.81}{\metre\per\second\squared}`
+  `\SIrange{512}{1024}{\mebi\byte}`, `\num{1234566}`.
+  (Note that the SI standard, in contrast to the _Chicago Manual of Style_,
+  specifies that a space should precede
+  [°C](https://doi.org/10.6028/NIST.SP.330-2019#page=48) and
+  [%](https://doi.org/10.6028/NIST.SP.330-2019#page=50).
+  The _siunitx_ package will consistently follow the appropriate rules.)
 * Use `\dots` to produce an ellipsis (`...`) punctuation symbol.
 * Put footnotes _after_ punctuation symbols, unless your publisher's
   style specifies otherwise.
   For example, write `… is true.\footnote{See also …}`
-* Separate numbers and the units these represent with a (non-breaking) space: `12~kB`, `3.6~GHz`.
-  No space is required for percentages and degrees: 90%, 45°.
-  (Note that the SI standard, in contrast to the _Chicago Manual of Style_,
-  specifies that a space should precede
-  [°C](https://doi.org/10.6028/NIST.SP.330-2019#page=48) and
-  [%](https://doi.org/10.6028/NIST.SP.330-2019#page=50).)
 * Avoid underlined text.
   Underlining is used for emphasis in handwritten text and was also
   carried over in this capacity in typewritten documents.
