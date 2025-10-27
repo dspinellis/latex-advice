@@ -571,7 +571,7 @@ Table row 2 \\
   [°C](https://doi.org/10.6028/NIST.SP.330-2019#page=48) and
   [%](https://doi.org/10.6028/NIST.SP.330-2019#page=50).
   The _siunitx_ package will consistently follow the appropriate rules.)
-* Use `\dots` to produce an ellipsis (`...`) punctuation symbol.
+* Use `\dots` to produce an ellipsis (…) punctuation symbol.
 * Put footnotes _after_ punctuation symbols, unless your publisher's
   style specifies otherwise.
   For example, write `… is true.\footnote{See also …}`
@@ -585,6 +585,23 @@ Table row 2 \\
   considerably more difficult to read than its lowercase equivalent.
   Lowercase letters have been designed for easy reading,
   uppercase were originally designed for easy chiseling on stone.
+* Avoid using the _itemize_ environment, when you're describing
+  elements.  So, rather than _itemize_ together with emphasized
+  item descriptions, use the _description_ environment with the
+  described element passed as an optional argument to _item_.
+  .
+  For example, rather than writing
+  ```
+  \begin{itemize}
+  \item \textbf{RQ1} What is the meaning of life?
+  \end{itemize}
+  ```
+  write
+  ```
+  \begin{desciption}
+  \item[RQ1] What is the meaning of life?
+  \end{desciption}
+  ```
 * Use small caps rather than an unsightly sequence of capital letters
   for writing abbreviations.
   For example, write `\textsc{sql}`, rather than `SQL`.
