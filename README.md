@@ -598,9 +598,9 @@ Table row 2 \\
   ```
   write
   ```
-  \begin{desciption}
+  \begin{description}
   \item[RQ1] What is the meaning of life?
-  \end{desciption}
+  \end{description}
   ```
 * Use small caps rather than an unsightly sequence of capital letters
   for writing abbreviations.
