@@ -420,8 +420,8 @@ F_{n} =
   to TeX's `$` _math_ `$` style.
 * Ensure equations are correctly punctuated according to the sentence
   they belong to.
-  Put a period at their end if the end a sentence, or a comma if they
-  are given perenthetically.
+  Put a period at their end if they end a sentence, or a comma if they
+  are given parenthetically.
   Space the trailing period or comma by prefixing it with a `\,`.
   Example:
 ```
@@ -741,7 +741,7 @@ writing and for avoiding common mistakes.
   "as recommended by the American Psychological Association (APA)".
 * Don't start a lower-level structure, such as a section within a chapter or
   a subsection within a section, immediately after the parent's title.
-  Instead begin the lower-level element with introductory text, such as
+  Instead begin the parent element with introductory text, such as
   an overview of what you will present.
 * Avoid creating a single subsection within a section.
 * Balance the size of your work's divisions (chapters, sections, subsections).
