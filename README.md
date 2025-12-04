@@ -755,6 +755,7 @@ writing and for avoiding common mistakes.
 * Martin J. Osborne [Some common (la)tex errors](https://www.economics.utoronto.ca/osborne/latex/LTXERR.HTM)
 * StackExchange Academia. [Does submitting a paper in Latex format enhance the chances of acceptance?](https://academia.stackexchange.com/questions/82641/does-submitting-a-paper-in-latex-format-enhance-the-chances-of-acceptance)
 *  Knauff M, Nejasmic J (2014) An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development. PLoS ONE 9(12): e115069. https://doi.org/10.1371/journal.pone.0115069
+* Andreas Zeller [The LaTeX Korrektor](https://www.youtube.com/watch?v=EhsMdQQJ_bE&list=PL6dh-k4faL8qTs8LQOsfbY70owETfWy5L) video series.
 
 ## Material on writing and presenting information
 * [List of style guides](https://en.wikipedia.org/wiki/List_of_style_guides)
