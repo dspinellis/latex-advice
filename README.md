@@ -757,13 +757,16 @@ writing and for avoiding common mistakes.
 *  Knauff M, Nejasmic J (2014) An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development. PLoS ONE 9(12): e115069. https://doi.org/10.1371/journal.pone.0115069
 * Andreas Zeller [The LaTeX Korrektor](https://www.youtube.com/watch?v=EhsMdQQJ_bE&list=PL6dh-k4faL8qTs8LQOsfbY70owETfWy5L) video series.
 
-## Material on writing and presenting information
+## Writing guides
 * [List of style guides](https://en.wikipedia.org/wiki/List_of_style_guides)
   on Wikipedia.
 * George Gopen, Judith Swan (1990) [The Science of Scientific Writing](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing). _Americal Scientist_, November–December.
 * Lorna Mitchell (2022) [Write documentation like you develop code](https://opensource.com/article/22/10/docs-as-code)
-* University of Melbourne [Five principles of good graphs](https://scc.ms.unimelb.edu.au/resources/data-visualisation-and-exploration/data-visualisation)
 * George Orwell (1946). [Politics and the English Language](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/). Horizon.
+
+## Presentation guides
+* Matthew Butterick (2025). [Practical Typography](https://practicaltypography.com/). O’Connor’s.
+* University of Melbourne [Five principles of good graphs](https://scc.ms.unimelb.edu.au/resources/data-visualisation-and-exploration/data-visualisation)
 * Diomidis Spinellis. [The Elements of Computing Style](https://www.spinellis.gr/computingstyle)
 
 ## License
