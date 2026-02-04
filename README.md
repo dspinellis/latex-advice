@@ -760,7 +760,7 @@ writing and for avoiding common mistakes.
 ## Writing guides
 * [List of style guides](https://en.wikipedia.org/wiki/List_of_style_guides)
   on Wikipedia.
-* George Gopen, Judith Swan (1990) [The Science of Scientific Writing](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing). _Americal Scientist_, November–December.
+* George Gopen, Judith Swan (1990) [The Science of Scientific Writing](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing). _American Scientist_, November–December.
 * Lorna Mitchell (2022) [Write documentation like you develop code](https://opensource.com/article/22/10/docs-as-code)
 * George Orwell (1946). [Politics and the English Language](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/). Horizon.
 
