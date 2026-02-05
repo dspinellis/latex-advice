@@ -747,7 +747,7 @@ writing and for avoiding common mistakes.
 * Balance the size of your work's divisions (chapters, sections, subsections).
 
 ## Additional material regarding LaTeX
-* A.J. Hildebrand. [LaTeX Tips: Basic tips](http://www.math.uiuc.edu/~ajh/tex/basics.html)
+* A.J. Hildebrand. [LaTeX Tips: Basic tips](https://web.archive.org/web/20170812131814/http://www.math.illinois.edu/~ajh/tex/basics.html)
 * Wikibooks. [LaTeX/Tips and Tricks](https://en.wikibooks.org/wiki/LaTeX/Tips_and_Tricks)
 * John Regehr. [John's Small Collection of LaTeX Tips](https://john.regehr.org/latex/)
 * Mark Trettin (author of German version) and Jürgen Fenn (English translation).
