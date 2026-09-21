@@ -587,9 +587,9 @@ Table row 2 \\
   uppercase were originally designed for easy chiseling on stone.
 * Avoid using the _itemize_ environment, when you're describing
   elements.  So, rather than _itemize_ together with emphasized
-  item descriptions, use the _description_ environment with the
-  described element passed as an optional argument to _item_.
-  .
+  item descriptions, use `\paragraph{…}` for multi-sentence elements
+  or the _description_ environment with the described element passed
+  as an optional argument to _item_ (`\item[…]`).
   For example, rather than writing
   ```
   \begin{itemize}
